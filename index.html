@@ -1110,18 +1110,13 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
       const allowedOffices = [
         'US President',
         'US Senate',
-        'NC Governor',
-        'NC Lieutenant Governor',
-        'NC Attorney General',
-        'NC Secretary of State',
-        'NC Treasurer',
+        'Governor',
+        'Lieutenant Governor',
+        'Attorney General',
+        'Secretary of State',
+        'Treasurer',
         'Auditor',
-        'Labor Commissioner',
-        'Insurance Commissioner',
-        'Agriculture Commissioner',
-        'Superintendent of Public Instruction',
-        'NC Supreme Court',
-        'Court of Appeals'
+        'Land Commissioner'
       ];
       // Group contests by office label
       const groupedByOffice = {};
@@ -1141,79 +1136,29 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
               'PRESIDENT AND VICE PRESIDENT OF THE UNITED STATES': 'US President',
               'US PRESIDENT': 'US President',
               'US SENATE': 'US Senate',
-              'NC GOVERNOR': 'NC Governor',
-              'GOVERNOR': 'NC Governor',
-              'NC LIEUTENANT GOVERNOR': 'NC Lieutenant Governor',
-              'LIEUTENANT GOVERNOR': 'NC Lieutenant Governor',
-              'NC ATTORNEY GENERAL': 'NC Attorney General',
-              'ATTORNEY GENERAL': 'NC Attorney General',
-              'NC TREASURER': 'NC Treasurer',
-              'TREASURER': 'NC Treasurer',
-              'NC SECRETARY OF STATE': 'NC Secretary of State',
-              'SECRETARY OF STATE': 'NC Secretary of State',
-              // Council of State specific positions mapped to explicit groups
+              'GOVERNOR': 'Governor',
+              'LIEUTENANT GOVERNOR': 'Lieutenant Governor',
+              'ATTORNEY GENERAL': 'Attorney General',
+              'TREASURER': 'Treasurer',
+              'STATE TREASURER': 'Treasurer',
+              'SECRETARY OF STATE': 'Secretary of State',
               'STATE AUDITOR': 'Auditor',
               'AUDITOR': 'Auditor',
-              'STATE LABOR COMMISSIONER': 'Labor Commissioner',
-              'LABOR COMMISSIONER': 'Labor Commissioner',
-              'STATE INSURANCE COMMISSIONER': 'Insurance Commissioner',
-              'INSURANCE COMMISSIONER': 'Insurance Commissioner',
-              'STATE AGRICULTURE COMMISSIONER': 'Agriculture Commissioner',
-              'AGRICULTURE COMMISSIONER': 'Agriculture Commissioner',
-              'COMMISSIONER OF AGRICULTURE': 'Agriculture Commissioner',
-              'STATE SUPERINTENDENT': 'Superintendent of Public Instruction',
-              'SUPERINTENDENT OF PUBLIC INSTRUCTION': 'Superintendent of Public Instruction',
-              'SUPERINTENDENT': 'Superintendent of Public Instruction',
-              // Judicial mapping to finer groups
-              'SUPREME COURT JUSTICE': 'NC Supreme Court',
-              'SUPREME COURT': 'NC Supreme Court',
-              'COURT OF APPEALS JUDGE': 'Court of Appeals',
-              'COURT OF APPEALS': 'Court of Appeals',
-              'APPEALS COURT': 'Court of Appeals',
-              'JUDICIAL': 'NC Supreme Court'
+              'LAND COMMISSIONER': 'Land Commissioner',
+              'COMMISSIONER OF STATE LANDS': 'Land Commissioner'
             };
             const up = (contestName || '').toString().trim().toUpperCase();
             if (shortMap[up]) officeLabel = shortMap[up];
-            else if (cat === 'council_of_state') officeLabel = 'Council of State';
-            else if (cat === 'judicial') officeLabel = 'Judicial';
             else {
               officeLabel = contestName.toLowerCase()
-                .replace(/(^|\s)(nc|us)\s/gi, '$1')
+                .replace(/(^|\s)(ar|us)\s/gi, '$1')
                 .split(' ')
                 .map(w => w.charAt(0).toUpperCase() + w.slice(1))
                 .join(' ');
             }
-            // If this was a generic Council of State / Judicial label, try to map into specific groups
-            if (officeLabel === 'Council of State' || officeLabel === 'Judicial') {
-              // Use the uppercased contest name for matching
-              const cn = up;
-              if (/AUDITOR/.test(cn)) officeLabel = 'Auditor';
-              else if (/LABOR/.test(cn)) officeLabel = 'Labor Commissioner';
-              else if (/INSURANCE/.test(cn)) officeLabel = 'Insurance Commissioner';
-              else if (/AGRICULTURE|COMMISSIONER OF AGRICULTURE/.test(cn)) officeLabel = 'Agriculture Commissioner';
-              else if (/SUPERINTENDENT|PUBLIC INSTRUCTION|SCHOOL SUPERINTENDENT/.test(cn)) officeLabel = 'Superintendent of Public Instruction';
-              else if (/SUPREME/.test(cn) || /JUSTICE/.test(cn) && /SUPREME/.test(cn)) officeLabel = 'NC Supreme Court';
-              else if (/COURT OF APPEALS|APPEALS|COURT OF APPEALS JUDGE/.test(cn)) officeLabel = 'Court of Appeals';
-              // If still generic 'Judicial' but contestName contains 'Supreme' map to NC Supreme Court
-              else if (officeLabel === 'Judicial' && /SUPREME/.test(cn)) officeLabel = 'NC Supreme Court';
-            }
 
-            // Skip 2012 Attorney General (unopposed Cooper)
-            if (officeLabel === 'NC Attorney General' && String(year) === '2012') return;
-            // Only include allowed offices (also accept Council of State and Judicial categories if they map)
-            if (!allowedOffices.includes(officeLabel)) {
-              // If it was grouped as generic Council of State or Judicial, try to include as-is
-              if (officeLabel === 'Council of State' || officeLabel === 'Judicial') {
-                // fall through only if we can map individual contest names below; otherwise skip
-              } else return;
-            }
-            // Exclude specific problematic contest names (case-insensitive, robust)
-            const unwantedContests = [
-              'CITY OF GREENSBORO WAR MEMORIAL AUDITORIUM BONDS',
-              'WAR MEMORIAL AUDITORIUM',
-              'GREENSBORO AUDITORIUM BONDS'
-            ];
-            if (contestName && unwantedContests.some(unwanted => contestName.toString().toUpperCase().includes(unwanted))) return;
+            // Only include allowed offices
+            if (!allowedOffices.includes(officeLabel)) return;
             
             // Filter out unopposed races (missing either Democratic or Republican candidate)
             // Check if the contest has results, and look for dem/rep candidates in those results
