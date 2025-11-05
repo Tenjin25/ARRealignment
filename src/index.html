@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapbox GL JS Map</title>
+    
+    <!-- Mapbox GL JS CSS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css" rel="stylesheet">
+    
+    <!-- Mapbox GL JS JavaScript -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .map-overlay {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        .map-overlay h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+        }
+        
+        .map-overlay p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div class="map-overlay">
+        <h3>Mapbox GL JS Map</h3>
+        <p>Replace YOUR_MAPBOX_ACCESS_TOKEN with your actual token</p>
+    </div>
+
+    <script>
+        // Set your Mapbox access token here
+        // Get your token from: https://account.mapbox.com/access-tokens/
+        mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+        
+        // Initialize the map
+        const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/mapbox/streets-v12', // style URL
+            center: [-74.5, 40], // starting position [lng, lat]
+            zoom: 9 // starting zoom
+        });
+        
+        // Add navigation controls (zoom and rotation)
+        map.addControl(new mapboxgl.NavigationControl());
+        
+        // Add a marker at the map center
+        const marker = new mapboxgl.Marker({
+            color: '#FF0000'
+        })
+            .setLngLat([-74.5, 40])
+            .setPopup(new mapboxgl.Popup().setHTML('<h3>Welcome!</h3><p>This is a Mapbox GL JS map</p>'))
+            .addTo(map);
+        
+        // Log when map is loaded
+        map.on('load', () => {
+            console.log('Map loaded successfully!');
+        });
+        
+        // Display coordinates on click
+        map.on('click', (e) => {
+            console.log(`Coordinates: ${e.lngLat.lng.toFixed(4)}, ${e.lngLat.lat.toFixed(4)}`);
+        });
+    </script>
+</body>
+</html>
