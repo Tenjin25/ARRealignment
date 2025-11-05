@@ -188,9 +188,13 @@ def categorize_office(office_name):
     if 'lieutenant governor' in office_lower or 'lt governor' in office_lower or 'lt. governor' in office_lower:
         return 'lt_governor'
     
-    # Other statewide offices
+    # State Treasurer only (not local treasurers like "McCrory Clerk/Treasurer")
+    if 'state treasurer' in office_lower:
+        return 'statewide'
+    
+    # Other statewide offices (excluding generic "treasurer" to avoid local positions)
     if any(word in office_lower for word in [
-        'attorney general', 'secretary of state', 'treasurer', 
+        'attorney general', 'secretary of state', 'state auditor',
         'auditor', 'commissioner', 'land', 'superintendent'
     ]):
         return 'statewide'
