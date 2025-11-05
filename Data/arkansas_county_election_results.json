@@ -36320,58 +36320,6 @@
               }
             }
           }
-        },
-        "alderman_city_of_brookland_w3_p1": {
-          "contest_name": "Alderman City of Brookland, W3 P1",
-          "results": {
-            "CRAIGHEAD": {
-              "county": "CRAIGHEAD",
-              "contest": "Alderman City of Brookland, W3 P1",
-              "year": "2014",
-              "dem_candidate": "Reba D. Jones",
-              "rep_candidate": null,
-              "dem_votes": 202,
-              "rep_votes": 0,
-              "other_votes": 324,
-              "total_votes": 526,
-              "two_party_total": 202,
-              "margin": 202,
-              "margin_pct": 100.0,
-              "winner": "DEM",
-              "competitiveness": {
-                "category": "Annihilation",
-                "party": "Democratic",
-                "code": "D_ANNIHILATION",
-                "color": "#08306b"
-              }
-            }
-          }
-        },
-        "mayor_city_of_brookland": {
-          "contest_name": "Mayor City of Brookland",
-          "results": {
-            "CRAIGHEAD": {
-              "county": "CRAIGHEAD",
-              "contest": "Mayor City of Brookland",
-              "year": "2014",
-              "dem_candidate": "Kenneth D. Jones",
-              "rep_candidate": null,
-              "dem_votes": 271,
-              "rep_votes": 0,
-              "other_votes": 277,
-              "total_votes": 548,
-              "two_party_total": 271,
-              "margin": 271,
-              "margin_pct": 100.0,
-              "winner": "DEM",
-              "competitiveness": {
-                "category": "Annihilation",
-                "party": "Democratic",
-                "code": "D_ANNIHILATION",
-                "color": "#08306b"
-              }
-            }
-          }
         }
       },
       "governor": {
@@ -42636,60 +42584,6 @@
                 "party": "Republican",
                 "code": "R_DOMINANT",
                 "color": "#a50f15"
-              }
-            }
-          }
-        }
-      },
-      "statewide": {
-        "constable-_poland": {
-          "contest_name": "Constable- Poland",
-          "results": {
-            "GREENE": {
-              "county": "GREENE",
-              "contest": "Constable- Poland",
-              "year": "2016",
-              "dem_candidate": "Roscoe Wood",
-              "rep_candidate": "Randy Sipes",
-              "dem_votes": 200,
-              "rep_votes": 421,
-              "other_votes": 0,
-              "total_votes": 621,
-              "two_party_total": 621,
-              "margin": 221,
-              "margin_pct": 35.59,
-              "winner": "REP",
-              "competitiveness": {
-                "category": "Dominant",
-                "party": "Republican",
-                "code": "R_DOMINANT",
-                "color": "#a50f15"
-              }
-            }
-          }
-        },
-        "ward_3_pos_1_highland": {
-          "contest_name": "Ward 3 Pos. 1 Highland",
-          "results": {
-            "SHARP": {
-              "county": "SHARP",
-              "contest": "Ward 3 Pos. 1 Highland",
-              "year": "2016",
-              "dem_candidate": "David Harris",
-              "rep_candidate": null,
-              "dem_votes": 212,
-              "rep_votes": 0,
-              "other_votes": 221,
-              "total_votes": 433,
-              "two_party_total": 212,
-              "margin": 212,
-              "margin_pct": 100.0,
-              "winner": "DEM",
-              "competitiveness": {
-                "category": "Annihilation",
-                "party": "Democratic",
-                "code": "D_ANNIHILATION",
-                "color": "#08306b"
               }
             }
           }
@@ -50601,58 +50495,6 @@
               }
             }
           }
-        },
-        "portland_alderman_ward_1_pos_2_portland": {
-          "contest_name": "PORTLAND ALDERMAN WARD 1 POS 2 PORTLAND",
-          "results": {
-            "ASHLEY": {
-              "county": "ASHLEY",
-              "contest": "PORTLAND ALDERMAN WARD 1 POS 2 PORTLAND",
-              "year": "2018",
-              "dem_candidate": "BOBBY FISHER",
-              "rep_candidate": null,
-              "dem_votes": 60,
-              "rep_votes": 0,
-              "other_votes": 70,
-              "total_votes": 130,
-              "two_party_total": 60,
-              "margin": 60,
-              "margin_pct": 100.0,
-              "winner": "DEM",
-              "competitiveness": {
-                "category": "Annihilation",
-                "party": "Democratic",
-                "code": "D_ANNIHILATION",
-                "color": "#08306b"
-              }
-            }
-          }
-        },
-        "city_of_england_mayor": {
-          "contest_name": "City of England Mayor",
-          "results": {
-            "LONOKE": {
-              "county": "LONOKE",
-              "contest": "City of England Mayor",
-              "year": "2018",
-              "dem_candidate": "David (Butch) House",
-              "rep_candidate": "John M. Siems",
-              "dem_votes": 562,
-              "rep_votes": 146,
-              "other_votes": 0,
-              "total_votes": 708,
-              "two_party_total": 708,
-              "margin": 416,
-              "margin_pct": 58.76,
-              "winner": "DEM",
-              "competitiveness": {
-                "category": "Annihilation",
-                "party": "Democratic",
-                "code": "D_ANNIHILATION",
-                "color": "#08306b"
-              }
-            }
-          }
         }
       }
     },
@@ -52238,34 +52080,6 @@
             }
           }
         }
-      },
-      "statewide": {
-        "constable_n_kilgore_&_cleveland": {
-          "contest_name": "Constable N Kilgore & Cleveland",
-          "results": {
-            "CLAY": {
-              "county": "CLAY",
-              "contest": "Constable N Kilgore & Cleveland",
-              "year": "2020",
-              "dem_candidate": "Vernie Carpenter",
-              "rep_candidate": null,
-              "dem_votes": 267,
-              "rep_votes": 0,
-              "other_votes": 396,
-              "total_votes": 663,
-              "two_party_total": 267,
-              "margin": 267,
-              "margin_pct": 100.0,
-              "winner": "DEM",
-              "competitiveness": {
-                "category": "Annihilation",
-                "party": "Democratic",
-                "code": "D_ANNIHILATION",
-                "color": "#08306b"
-              }
-            }
-          }
-        }
       }
     },
     "2022": {
@@ -52294,8 +52108,8 @@
                 "color": "#6baed6"
               }
             },
-            "ASHLEY": {
-              "county": "ASHLEY",
+            "CLARK": {
+              "county": "CLARK",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52315,8 +52129,8 @@
                 "color": "#67000d"
               }
             },
-            "BAXTER": {
-              "county": "BAXTER",
+            "OUACHITA": {
+              "county": "OUACHITA",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52336,8 +52150,8 @@
                 "color": "#cb181d"
               }
             },
-            "BENTON": {
-              "county": "BENTON",
+            "LONOKE": {
+              "county": "LONOKE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52357,8 +52171,8 @@
                 "color": "#67000d"
               }
             },
-            "BOONE": {
-              "county": "BOONE",
+            "PHILLIPS": {
+              "county": "PHILLIPS",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52378,8 +52192,8 @@
                 "color": "#67000d"
               }
             },
-            "BRADLEY": {
-              "county": "BRADLEY",
+            "NEVADA": {
+              "county": "NEVADA",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52399,8 +52213,8 @@
                 "color": "#a50f15"
               }
             },
-            "CALHOUN": {
-              "county": "CALHOUN",
+            "GRANT": {
+              "county": "GRANT",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52420,8 +52234,8 @@
                 "color": "#cb181d"
               }
             },
-            "CARROLL": {
-              "county": "CARROLL",
+            "LAFAYETTE": {
+              "county": "LAFAYETTE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52441,8 +52255,8 @@
                 "color": "#a50f15"
               }
             },
-            "WASHINGTON": {
-              "county": "WASHINGTON",
+            "BENTON": {
+              "county": "BENTON",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52462,8 +52276,8 @@
                 "color": "#a50f15"
               }
             },
-            "JEFFERSON": {
-              "county": "JEFFERSON",
+            "GREENE": {
+              "county": "GREENE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52483,8 +52297,8 @@
                 "color": "#fcae91"
               }
             },
-            "CLAY": {
-              "county": "CLAY",
+            "LITTLE RIVER": {
+              "county": "LITTLE RIVER",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52504,8 +52318,8 @@
                 "color": "#67000d"
               }
             },
-            "CLEBURNE": {
-              "county": "CLEBURNE",
+            "SHARP": {
+              "county": "SHARP",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52525,8 +52339,8 @@
                 "color": "#67000d"
               }
             },
-            "CRITTENDEN": {
-              "county": "CRITTENDEN",
+            "CRAWFORD": {
+              "county": "CRAWFORD",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52546,8 +52360,8 @@
                 "color": "#6baed6"
               }
             },
-            "CHICOT": {
-              "county": "CHICOT",
+            "HOWARD": {
+              "county": "HOWARD",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52567,8 +52381,8 @@
                 "color": "#67000d"
               }
             },
-            "CONWAY": {
-              "county": "CONWAY",
+            "ARKANSAS": {
+              "county": "ARKANSAS",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52588,8 +52402,8 @@
                 "color": "#67000d"
               }
             },
-            "CRAIGHEAD": {
-              "county": "CRAIGHEAD",
+            "YELL": {
+              "county": "YELL",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52609,8 +52423,8 @@
                 "color": "#67000d"
               }
             },
-            "CRAWFORD": {
-              "county": "CRAWFORD",
+            "FAULKNER": {
+              "county": "FAULKNER",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52630,8 +52444,8 @@
                 "color": "#a50f15"
               }
             },
-            "CROSS": {
-              "county": "CROSS",
+            "PRAIRIE": {
+              "county": "PRAIRIE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52651,8 +52465,8 @@
                 "color": "#67000d"
               }
             },
-            "CLEVELAND": {
-              "county": "CLEVELAND",
+            "CALHOUN": {
+              "county": "CALHOUN",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52672,8 +52486,8 @@
                 "color": "#67000d"
               }
             },
-            "CLARK": {
-              "county": "CLARK",
+            "CARROLL": {
+              "county": "CARROLL",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52693,8 +52507,8 @@
                 "color": "#a50f15"
               }
             },
-            "DESHA": {
-              "county": "DESHA",
+            "MILLER": {
+              "county": "MILLER",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52714,8 +52528,8 @@
                 "color": "#67000d"
               }
             },
-            "DREW": {
-              "county": "DREW",
+            "WOODRUFF": {
+              "county": "WOODRUFF",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52735,8 +52549,8 @@
                 "color": "#a50f15"
               }
             },
-            "FAULKNER": {
-              "county": "FAULKNER",
+            "ASHLEY": {
+              "county": "ASHLEY",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52756,8 +52570,8 @@
                 "color": "#67000d"
               }
             },
-            "FRANKLIN": {
-              "county": "FRANKLIN",
+            "MADISON": {
+              "county": "MADISON",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52777,8 +52591,8 @@
                 "color": "#67000d"
               }
             },
-            "FULTON": {
-              "county": "FULTON",
+            "DESHA": {
+              "county": "DESHA",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52798,8 +52612,8 @@
                 "color": "#fcae91"
               }
             },
-            "GARLAND": {
-              "county": "GARLAND",
+            "BRADLEY": {
+              "county": "BRADLEY",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52819,8 +52633,8 @@
                 "color": "#67000d"
               }
             },
-            "GRANT": {
-              "county": "GRANT",
+            "MARION": {
+              "county": "MARION",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52840,8 +52654,8 @@
                 "color": "#67000d"
               }
             },
-            "GREENE": {
-              "county": "GREENE",
+            "CRAIGHEAD": {
+              "county": "CRAIGHEAD",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52861,8 +52675,8 @@
                 "color": "#67000d"
               }
             },
-            "HEMPSTEAD": {
-              "county": "HEMPSTEAD",
+            "CLAY": {
+              "county": "CLAY",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52882,8 +52696,8 @@
                 "color": "#67000d"
               }
             },
-            "HOT SPRING": {
-              "county": "HOT SPRING",
+            "CROSS": {
+              "county": "CROSS",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52903,8 +52717,8 @@
                 "color": "#a50f15"
               }
             },
-            "HOWARD": {
-              "county": "HOWARD",
+            "CONWAY": {
+              "county": "CONWAY",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52924,8 +52738,8 @@
                 "color": "#67000d"
               }
             },
-            "INDEPENDENCE": {
-              "county": "INDEPENDENCE",
+            "MISSISSIPPI": {
+              "county": "MISSISSIPPI",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52945,8 +52759,8 @@
                 "color": "#a50f15"
               }
             },
-            "IZARD": {
-              "county": "IZARD",
+            "BOONE": {
+              "county": "BOONE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52966,8 +52780,8 @@
                 "color": "#67000d"
               }
             },
-            "JACKSON": {
-              "county": "JACKSON",
+            "DREW": {
+              "county": "DREW",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -52987,8 +52801,8 @@
                 "color": "#67000d"
               }
             },
-            "JOHNSON": {
-              "county": "JOHNSON",
+            "PIKE": {
+              "county": "PIKE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53008,8 +52822,8 @@
                 "color": "#67000d"
               }
             },
-            "LAFAYETTE": {
-              "county": "LAFAYETTE",
+            "UNION": {
+              "county": "UNION",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53029,8 +52843,8 @@
                 "color": "#a50f15"
               }
             },
-            "LAWRENCE": {
-              "county": "LAWRENCE",
+            "SEBASTIAN": {
+              "county": "SEBASTIAN",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53050,8 +52864,8 @@
                 "color": "#67000d"
               }
             },
-            "LEE": {
-              "county": "LEE",
+            "CHICOT": {
+              "county": "CHICOT",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53071,8 +52885,8 @@
                 "color": "#67000d"
               }
             },
-            "LINCOLN": {
-              "county": "LINCOLN",
+            "COLUMBIA": {
+              "county": "COLUMBIA",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53092,8 +52906,8 @@
                 "color": "#67000d"
               }
             },
-            "LITTLE RIVER": {
-              "county": "LITTLE RIVER",
+            "MONTGOMERY": {
+              "county": "MONTGOMERY",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53113,8 +52927,8 @@
                 "color": "#67000d"
               }
             },
-            "LOGAN": {
-              "county": "LOGAN",
+            "PERRY": {
+              "county": "PERRY",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53134,8 +52948,8 @@
                 "color": "#67000d"
               }
             },
-            "LONOKE": {
-              "county": "LONOKE",
+            "JACKSON": {
+              "county": "JACKSON",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53155,8 +52969,8 @@
                 "color": "#67000d"
               }
             },
-            "MADISON": {
-              "county": "MADISON",
+            "CRITTENDEN": {
+              "county": "CRITTENDEN",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53176,8 +52990,8 @@
                 "color": "#67000d"
               }
             },
-            "MARION": {
-              "county": "MARION",
+            "HEMPSTEAD": {
+              "county": "HEMPSTEAD",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53197,8 +53011,8 @@
                 "color": "#67000d"
               }
             },
-            "MILLER": {
-              "county": "MILLER",
+            "POPE": {
+              "county": "POPE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53218,8 +53032,8 @@
                 "color": "#67000d"
               }
             },
-            "MISSISSIPPI": {
-              "county": "MISSISSIPPI",
+            "WASHINGTON": {
+              "county": "WASHINGTON",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53239,8 +53053,8 @@
                 "color": "#fb6a4a"
               }
             },
-            "MONROE": {
-              "county": "MONROE",
+            "JEFFERSON": {
+              "county": "JEFFERSON",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53260,8 +53074,8 @@
                 "color": "#67000d"
               }
             },
-            "MONTGOMERY": {
-              "county": "MONTGOMERY",
+            "STONE": {
+              "county": "STONE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53281,8 +53095,8 @@
                 "color": "#67000d"
               }
             },
-            "NEVADA": {
-              "county": "NEVADA",
+            "BAXTER": {
+              "county": "BAXTER",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53302,8 +53116,8 @@
                 "color": "#67000d"
               }
             },
-            "NEWTON": {
-              "county": "NEWTON",
+            "SEARCY": {
+              "county": "SEARCY",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53323,8 +53137,8 @@
                 "color": "#67000d"
               }
             },
-            "OUACHITA": {
-              "county": "OUACHITA",
+            "VAN BUREN": {
+              "county": "VAN BUREN",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53344,8 +53158,8 @@
                 "color": "#67000d"
               }
             },
-            "PERRY": {
-              "county": "PERRY",
+            "RANDOLPH": {
+              "county": "RANDOLPH",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53365,8 +53179,8 @@
                 "color": "#fcae91"
               }
             },
-            "PHILLIPS": {
-              "county": "PHILLIPS",
+            "DALLAS": {
+              "county": "DALLAS",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53386,8 +53200,8 @@
                 "color": "#fcae91"
               }
             },
-            "PIKE": {
-              "county": "PIKE",
+            "MONROE": {
+              "county": "MONROE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53407,8 +53221,8 @@
                 "color": "#a50f15"
               }
             },
-            "POINSETT": {
-              "county": "POINSETT",
+            "LEE": {
+              "county": "LEE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53428,8 +53242,8 @@
                 "color": "#ef3b2c"
               }
             },
-            "POLK": {
-              "county": "POLK",
+            "IZARD": {
+              "county": "IZARD",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53449,8 +53263,8 @@
                 "color": "#9ecae1"
               }
             },
-            "POPE": {
-              "county": "POPE",
+            "LAWRENCE": {
+              "county": "LAWRENCE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53470,8 +53284,8 @@
                 "color": "#67000d"
               }
             },
-            "PRAIRIE": {
-              "county": "PRAIRIE",
+            "SCOTT": {
+              "county": "SCOTT",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53491,8 +53305,8 @@
                 "color": "#67000d"
               }
             },
-            "ARKANSAS": {
-              "county": "ARKANSAS",
+            "POLK": {
+              "county": "POLK",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53512,8 +53326,8 @@
                 "color": "#67000d"
               }
             },
-            "COLUMBIA": {
-              "county": "COLUMBIA",
+            "LINCOLN": {
+              "county": "LINCOLN",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53533,8 +53347,8 @@
                 "color": "#ef3b2c"
               }
             },
-            "RANDOLPH": {
-              "county": "RANDOLPH",
+            "CLEVELAND": {
+              "county": "CLEVELAND",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53554,8 +53368,8 @@
                 "color": "#67000d"
               }
             },
-            "SALINE": {
-              "county": "SALINE",
+            "INDEPENDENCE": {
+              "county": "INDEPENDENCE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53575,8 +53389,8 @@
                 "color": "#67000d"
               }
             },
-            "SCOTT": {
-              "county": "SCOTT",
+            "CLEBURNE": {
+              "county": "CLEBURNE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53596,8 +53410,8 @@
                 "color": "#67000d"
               }
             },
-            "SEARCY": {
-              "county": "SEARCY",
+            "SEVIER": {
+              "county": "SEVIER",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53617,8 +53431,8 @@
                 "color": "#67000d"
               }
             },
-            "SEBASTIAN": {
-              "county": "SEBASTIAN",
+            "WHITE": {
+              "county": "WHITE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53638,8 +53452,8 @@
                 "color": "#67000d"
               }
             },
-            "SEVIER": {
-              "county": "SEVIER",
+            "LOGAN": {
+              "county": "LOGAN",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53659,8 +53473,8 @@
                 "color": "#67000d"
               }
             },
-            "SHARP": {
-              "county": "SHARP",
+            "ST FRANCIS": {
+              "county": "ST FRANCIS",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53680,8 +53494,8 @@
                 "color": "#67000d"
               }
             },
-            "STONE": {
-              "county": "STONE",
+            "SALINE": {
+              "county": "SALINE",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53701,8 +53515,8 @@
                 "color": "#67000d"
               }
             },
-            "ST. FRANCIS": {
-              "county": "ST. FRANCIS",
+            "FULTON": {
+              "county": "FULTON",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53722,8 +53536,8 @@
                 "color": "#67000d"
               }
             },
-            "UNION": {
-              "county": "UNION",
+            "NEWTON": {
+              "county": "NEWTON",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53743,8 +53557,8 @@
                 "color": "#67000d"
               }
             },
-            "VAN BUREN": {
-              "county": "VAN BUREN",
+            "FRANKLIN": {
+              "county": "FRANKLIN",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53764,8 +53578,8 @@
                 "color": "#67000d"
               }
             },
-            "YELL": {
-              "county": "YELL",
+            "JOHNSON": {
+              "county": "JOHNSON",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53785,8 +53599,8 @@
                 "color": "#67000d"
               }
             },
-            "WHITE": {
-              "county": "WHITE",
+            "POINSETT": {
+              "county": "POINSETT",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53806,8 +53620,8 @@
                 "color": "#67000d"
               }
             },
-            "WOODRUFF": {
-              "county": "WOODRUFF",
+            "HOT SPRING": {
+              "county": "HOT SPRING",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53827,8 +53641,8 @@
                 "color": "#67000d"
               }
             },
-            "DALLAS": {
-              "county": "DALLAS",
+            "GARLAND": {
+              "county": "GARLAND",
               "contest": "U.S. Senate",
               "year": "2022",
               "dem_candidate": "Natalie James",
@@ -53876,8 +53690,8 @@
                 "color": "#6baed6"
               }
             },
-            "ASHLEY": {
-              "county": "ASHLEY",
+            "CLARK": {
+              "county": "CLARK",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -53897,8 +53711,8 @@
                 "color": "#67000d"
               }
             },
-            "BAXTER": {
-              "county": "BAXTER",
+            "OUACHITA": {
+              "county": "OUACHITA",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -53918,8 +53732,8 @@
                 "color": "#ef3b2c"
               }
             },
-            "BENTON": {
-              "county": "BENTON",
+            "LONOKE": {
+              "county": "LONOKE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -53939,8 +53753,8 @@
                 "color": "#67000d"
               }
             },
-            "BOONE": {
-              "county": "BOONE",
+            "PHILLIPS": {
+              "county": "PHILLIPS",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -53960,8 +53774,8 @@
                 "color": "#67000d"
               }
             },
-            "BRADLEY": {
-              "county": "BRADLEY",
+            "NEVADA": {
+              "county": "NEVADA",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -53981,8 +53795,8 @@
                 "color": "#a50f15"
               }
             },
-            "CALHOUN": {
-              "county": "CALHOUN",
+            "GRANT": {
+              "county": "GRANT",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54002,8 +53816,8 @@
                 "color": "#ef3b2c"
               }
             },
-            "CARROLL": {
-              "county": "CARROLL",
+            "LAFAYETTE": {
+              "county": "LAFAYETTE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54023,8 +53837,8 @@
                 "color": "#a50f15"
               }
             },
-            "WASHINGTON": {
-              "county": "WASHINGTON",
+            "BENTON": {
+              "county": "BENTON",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54044,8 +53858,8 @@
                 "color": "#a50f15"
               }
             },
-            "JEFFERSON": {
-              "county": "JEFFERSON",
+            "GREENE": {
+              "county": "GREENE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54065,8 +53879,8 @@
                 "color": "#fcae91"
               }
             },
-            "CLAY": {
-              "county": "CLAY",
+            "LITTLE RIVER": {
+              "county": "LITTLE RIVER",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54086,8 +53900,8 @@
                 "color": "#67000d"
               }
             },
-            "CLEBURNE": {
-              "county": "CLEBURNE",
+            "SHARP": {
+              "county": "SHARP",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54107,8 +53921,8 @@
                 "color": "#67000d"
               }
             },
-            "CRITTENDEN": {
-              "county": "CRITTENDEN",
+            "CRAWFORD": {
+              "county": "CRAWFORD",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54128,8 +53942,8 @@
                 "color": "#6baed6"
               }
             },
-            "CHICOT": {
-              "county": "CHICOT",
+            "HOWARD": {
+              "county": "HOWARD",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54149,8 +53963,8 @@
                 "color": "#67000d"
               }
             },
-            "CONWAY": {
-              "county": "CONWAY",
+            "ARKANSAS": {
+              "county": "ARKANSAS",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54170,8 +53984,8 @@
                 "color": "#67000d"
               }
             },
-            "CRAIGHEAD": {
-              "county": "CRAIGHEAD",
+            "YELL": {
+              "county": "YELL",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54191,8 +54005,8 @@
                 "color": "#67000d"
               }
             },
-            "CRAWFORD": {
-              "county": "CRAWFORD",
+            "FAULKNER": {
+              "county": "FAULKNER",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54212,8 +54026,8 @@
                 "color": "#a50f15"
               }
             },
-            "CROSS": {
-              "county": "CROSS",
+            "PRAIRIE": {
+              "county": "PRAIRIE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54233,8 +54047,8 @@
                 "color": "#a50f15"
               }
             },
-            "CLEVELAND": {
-              "county": "CLEVELAND",
+            "CALHOUN": {
+              "county": "CALHOUN",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54254,8 +54068,8 @@
                 "color": "#67000d"
               }
             },
-            "CLARK": {
-              "county": "CLARK",
+            "CARROLL": {
+              "county": "CARROLL",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54275,8 +54089,8 @@
                 "color": "#cb181d"
               }
             },
-            "DESHA": {
-              "county": "DESHA",
+            "MILLER": {
+              "county": "MILLER",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54296,8 +54110,8 @@
                 "color": "#67000d"
               }
             },
-            "DREW": {
-              "county": "DREW",
+            "WOODRUFF": {
+              "county": "WOODRUFF",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54317,8 +54131,8 @@
                 "color": "#a50f15"
               }
             },
-            "FAULKNER": {
-              "county": "FAULKNER",
+            "ASHLEY": {
+              "county": "ASHLEY",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54338,8 +54152,8 @@
                 "color": "#a50f15"
               }
             },
-            "FRANKLIN": {
-              "county": "FRANKLIN",
+            "MADISON": {
+              "county": "MADISON",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54359,8 +54173,8 @@
                 "color": "#67000d"
               }
             },
-            "FULTON": {
-              "county": "FULTON",
+            "DESHA": {
+              "county": "DESHA",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54380,8 +54194,8 @@
                 "color": "#9ecae1"
               }
             },
-            "GARLAND": {
-              "county": "GARLAND",
+            "BRADLEY": {
+              "county": "BRADLEY",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54401,8 +54215,8 @@
                 "color": "#67000d"
               }
             },
-            "GRANT": {
-              "county": "GRANT",
+            "MARION": {
+              "county": "MARION",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54422,8 +54236,8 @@
                 "color": "#67000d"
               }
             },
-            "GREENE": {
-              "county": "GREENE",
+            "CRAIGHEAD": {
+              "county": "CRAIGHEAD",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54443,8 +54257,8 @@
                 "color": "#a50f15"
               }
             },
-            "HEMPSTEAD": {
-              "county": "HEMPSTEAD",
+            "CLAY": {
+              "county": "CLAY",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54464,8 +54278,8 @@
                 "color": "#67000d"
               }
             },
-            "HOT SPRING": {
-              "county": "HOT SPRING",
+            "CROSS": {
+              "county": "CROSS",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54485,8 +54299,8 @@
                 "color": "#a50f15"
               }
             },
-            "HOWARD": {
-              "county": "HOWARD",
+            "CONWAY": {
+              "county": "CONWAY",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54506,8 +54320,8 @@
                 "color": "#a50f15"
               }
             },
-            "INDEPENDENCE": {
-              "county": "INDEPENDENCE",
+            "MISSISSIPPI": {
+              "county": "MISSISSIPPI",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54527,8 +54341,8 @@
                 "color": "#a50f15"
               }
             },
-            "IZARD": {
-              "county": "IZARD",
+            "BOONE": {
+              "county": "BOONE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54548,8 +54362,8 @@
                 "color": "#67000d"
               }
             },
-            "JACKSON": {
-              "county": "JACKSON",
+            "DREW": {
+              "county": "DREW",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54569,8 +54383,8 @@
                 "color": "#67000d"
               }
             },
-            "JOHNSON": {
-              "county": "JOHNSON",
+            "PIKE": {
+              "county": "PIKE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54590,8 +54404,8 @@
                 "color": "#67000d"
               }
             },
-            "LAFAYETTE": {
-              "county": "LAFAYETTE",
+            "UNION": {
+              "county": "UNION",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54611,8 +54425,8 @@
                 "color": "#a50f15"
               }
             },
-            "LAWRENCE": {
-              "county": "LAWRENCE",
+            "SEBASTIAN": {
+              "county": "SEBASTIAN",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54632,8 +54446,8 @@
                 "color": "#a50f15"
               }
             },
-            "LEE": {
-              "county": "LEE",
+            "CHICOT": {
+              "county": "CHICOT",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54653,8 +54467,8 @@
                 "color": "#67000d"
               }
             },
-            "LINCOLN": {
-              "county": "LINCOLN",
+            "COLUMBIA": {
+              "county": "COLUMBIA",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54674,8 +54488,8 @@
                 "color": "#67000d"
               }
             },
-            "LITTLE RIVER": {
-              "county": "LITTLE RIVER",
+            "MONTGOMERY": {
+              "county": "MONTGOMERY",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54695,8 +54509,8 @@
                 "color": "#67000d"
               }
             },
-            "LOGAN": {
-              "county": "LOGAN",
+            "PERRY": {
+              "county": "PERRY",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54716,8 +54530,8 @@
                 "color": "#67000d"
               }
             },
-            "LONOKE": {
-              "county": "LONOKE",
+            "JACKSON": {
+              "county": "JACKSON",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54737,8 +54551,8 @@
                 "color": "#67000d"
               }
             },
-            "MADISON": {
-              "county": "MADISON",
+            "CRITTENDEN": {
+              "county": "CRITTENDEN",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54758,8 +54572,8 @@
                 "color": "#67000d"
               }
             },
-            "MARION": {
-              "county": "MARION",
+            "HEMPSTEAD": {
+              "county": "HEMPSTEAD",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54779,8 +54593,8 @@
                 "color": "#67000d"
               }
             },
-            "MILLER": {
-              "county": "MILLER",
+            "POPE": {
+              "county": "POPE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54800,8 +54614,8 @@
                 "color": "#67000d"
               }
             },
-            "MISSISSIPPI": {
-              "county": "MISSISSIPPI",
+            "WASHINGTON": {
+              "county": "WASHINGTON",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54821,8 +54635,8 @@
                 "color": "#fb6a4a"
               }
             },
-            "MONROE": {
-              "county": "MONROE",
+            "JEFFERSON": {
+              "county": "JEFFERSON",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54842,8 +54656,8 @@
                 "color": "#67000d"
               }
             },
-            "MONTGOMERY": {
-              "county": "MONTGOMERY",
+            "STONE": {
+              "county": "STONE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54863,8 +54677,8 @@
                 "color": "#67000d"
               }
             },
-            "NEVADA": {
-              "county": "NEVADA",
+            "BAXTER": {
+              "county": "BAXTER",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54884,8 +54698,8 @@
                 "color": "#67000d"
               }
             },
-            "NEWTON": {
-              "county": "NEWTON",
+            "SEARCY": {
+              "county": "SEARCY",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54905,8 +54719,8 @@
                 "color": "#67000d"
               }
             },
-            "OUACHITA": {
-              "county": "OUACHITA",
+            "VAN BUREN": {
+              "county": "VAN BUREN",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54926,8 +54740,8 @@
                 "color": "#67000d"
               }
             },
-            "PERRY": {
-              "county": "PERRY",
+            "RANDOLPH": {
+              "county": "RANDOLPH",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54947,8 +54761,8 @@
                 "color": "#fee8c8"
               }
             },
-            "PHILLIPS": {
-              "county": "PHILLIPS",
+            "DALLAS": {
+              "county": "DALLAS",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54968,8 +54782,8 @@
                 "color": "#c6dbef"
               }
             },
-            "PIKE": {
-              "county": "PIKE",
+            "MONROE": {
+              "county": "MONROE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -54989,8 +54803,8 @@
                 "color": "#a50f15"
               }
             },
-            "POINSETT": {
-              "county": "POINSETT",
+            "LEE": {
+              "county": "LEE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55010,8 +54824,8 @@
                 "color": "#ef3b2c"
               }
             },
-            "POLK": {
-              "county": "POLK",
+            "IZARD": {
+              "county": "IZARD",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55031,8 +54845,8 @@
                 "color": "#9ecae1"
               }
             },
-            "POPE": {
-              "county": "POPE",
+            "LAWRENCE": {
+              "county": "LAWRENCE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55052,8 +54866,8 @@
                 "color": "#67000d"
               }
             },
-            "PRAIRIE": {
-              "county": "PRAIRIE",
+            "SCOTT": {
+              "county": "SCOTT",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55073,8 +54887,8 @@
                 "color": "#67000d"
               }
             },
-            "ARKANSAS": {
-              "county": "ARKANSAS",
+            "POLK": {
+              "county": "POLK",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55094,8 +54908,8 @@
                 "color": "#67000d"
               }
             },
-            "COLUMBIA": {
-              "county": "COLUMBIA",
+            "LINCOLN": {
+              "county": "LINCOLN",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55115,8 +54929,8 @@
                 "color": "#fb6a4a"
               }
             },
-            "RANDOLPH": {
-              "county": "RANDOLPH",
+            "CLEVELAND": {
+              "county": "CLEVELAND",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55136,8 +54950,8 @@
                 "color": "#67000d"
               }
             },
-            "SALINE": {
-              "county": "SALINE",
+            "INDEPENDENCE": {
+              "county": "INDEPENDENCE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55157,8 +54971,8 @@
                 "color": "#67000d"
               }
             },
-            "SCOTT": {
-              "county": "SCOTT",
+            "CLEBURNE": {
+              "county": "CLEBURNE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55178,8 +54992,8 @@
                 "color": "#67000d"
               }
             },
-            "SEARCY": {
-              "county": "SEARCY",
+            "SEVIER": {
+              "county": "SEVIER",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55199,8 +55013,8 @@
                 "color": "#67000d"
               }
             },
-            "SEBASTIAN": {
-              "county": "SEBASTIAN",
+            "WHITE": {
+              "county": "WHITE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55220,8 +55034,8 @@
                 "color": "#67000d"
               }
             },
-            "SEVIER": {
-              "county": "SEVIER",
+            "LOGAN": {
+              "county": "LOGAN",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55241,8 +55055,8 @@
                 "color": "#67000d"
               }
             },
-            "SHARP": {
-              "county": "SHARP",
+            "ST FRANCIS": {
+              "county": "ST FRANCIS",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55262,8 +55076,8 @@
                 "color": "#67000d"
               }
             },
-            "STONE": {
-              "county": "STONE",
+            "SALINE": {
+              "county": "SALINE",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55283,8 +55097,8 @@
                 "color": "#67000d"
               }
             },
-            "ST. FRANCIS": {
-              "county": "ST. FRANCIS",
+            "FULTON": {
+              "county": "FULTON",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55304,8 +55118,8 @@
                 "color": "#67000d"
               }
             },
-            "UNION": {
-              "county": "UNION",
+            "NEWTON": {
+              "county": "NEWTON",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55325,8 +55139,8 @@
                 "color": "#67000d"
               }
             },
-            "VAN BUREN": {
-              "county": "VAN BUREN",
+            "FRANKLIN": {
+              "county": "FRANKLIN",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55346,8 +55160,8 @@
                 "color": "#67000d"
               }
             },
-            "YELL": {
-              "county": "YELL",
+            "JOHNSON": {
+              "county": "JOHNSON",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55367,8 +55181,8 @@
                 "color": "#67000d"
               }
             },
-            "WHITE": {
-              "county": "WHITE",
+            "POINSETT": {
+              "county": "POINSETT",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55388,8 +55202,8 @@
                 "color": "#67000d"
               }
             },
-            "WOODRUFF": {
-              "county": "WOODRUFF",
+            "HOT SPRING": {
+              "county": "HOT SPRING",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55409,8 +55223,8 @@
                 "color": "#67000d"
               }
             },
-            "DALLAS": {
-              "county": "DALLAS",
+            "GARLAND": {
+              "county": "GARLAND",
               "contest": "State Treasurer",
               "year": "2022",
               "dem_candidate": "Pam Whitaker",
@@ -55458,8 +55272,8 @@
                 "color": "#3182bd"
               }
             },
-            "ASHLEY": {
-              "county": "ASHLEY",
+            "CLARK": {
+              "county": "CLARK",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55479,8 +55293,8 @@
                 "color": "#67000d"
               }
             },
-            "BAXTER": {
-              "county": "BAXTER",
+            "OUACHITA": {
+              "county": "OUACHITA",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55500,8 +55314,8 @@
                 "color": "#ef3b2c"
               }
             },
-            "BENTON": {
-              "county": "BENTON",
+            "LONOKE": {
+              "county": "LONOKE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55521,8 +55335,8 @@
                 "color": "#67000d"
               }
             },
-            "BOONE": {
-              "county": "BOONE",
+            "PHILLIPS": {
+              "county": "PHILLIPS",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55542,8 +55356,8 @@
                 "color": "#67000d"
               }
             },
-            "BRADLEY": {
-              "county": "BRADLEY",
+            "NEVADA": {
+              "county": "NEVADA",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55563,8 +55377,8 @@
                 "color": "#a50f15"
               }
             },
-            "CALHOUN": {
-              "county": "CALHOUN",
+            "GRANT": {
+              "county": "GRANT",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55584,8 +55398,8 @@
                 "color": "#ef3b2c"
               }
             },
-            "CARROLL": {
-              "county": "CARROLL",
+            "LAFAYETTE": {
+              "county": "LAFAYETTE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55605,8 +55419,8 @@
                 "color": "#cb181d"
               }
             },
-            "WASHINGTON": {
-              "county": "WASHINGTON",
+            "BENTON": {
+              "county": "BENTON",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55626,8 +55440,8 @@
                 "color": "#cb181d"
               }
             },
-            "JEFFERSON": {
-              "county": "JEFFERSON",
+            "GREENE": {
+              "county": "GREENE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55647,8 +55461,8 @@
                 "color": "#cccccc"
               }
             },
-            "CLAY": {
-              "county": "CLAY",
+            "LITTLE RIVER": {
+              "county": "LITTLE RIVER",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55668,8 +55482,8 @@
                 "color": "#67000d"
               }
             },
-            "CLEBURNE": {
-              "county": "CLEBURNE",
+            "SHARP": {
+              "county": "SHARP",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55689,8 +55503,8 @@
                 "color": "#67000d"
               }
             },
-            "CRITTENDEN": {
-              "county": "CRITTENDEN",
+            "CRAWFORD": {
+              "county": "CRAWFORD",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55710,8 +55524,8 @@
                 "color": "#3182bd"
               }
             },
-            "CHICOT": {
-              "county": "CHICOT",
+            "HOWARD": {
+              "county": "HOWARD",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55731,8 +55545,8 @@
                 "color": "#67000d"
               }
             },
-            "CONWAY": {
-              "county": "CONWAY",
+            "ARKANSAS": {
+              "county": "ARKANSAS",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55752,8 +55566,8 @@
                 "color": "#67000d"
               }
             },
-            "CRAIGHEAD": {
-              "county": "CRAIGHEAD",
+            "YELL": {
+              "county": "YELL",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55773,8 +55587,8 @@
                 "color": "#67000d"
               }
             },
-            "CRAWFORD": {
-              "county": "CRAWFORD",
+            "FAULKNER": {
+              "county": "FAULKNER",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55794,8 +55608,8 @@
                 "color": "#cb181d"
               }
             },
-            "CROSS": {
-              "county": "CROSS",
+            "PRAIRIE": {
+              "county": "PRAIRIE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55815,8 +55629,8 @@
                 "color": "#a50f15"
               }
             },
-            "CLEVELAND": {
-              "county": "CLEVELAND",
+            "CALHOUN": {
+              "county": "CALHOUN",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55836,8 +55650,8 @@
                 "color": "#67000d"
               }
             },
-            "CLARK": {
-              "county": "CLARK",
+            "CARROLL": {
+              "county": "CARROLL",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55857,8 +55671,8 @@
                 "color": "#cb181d"
               }
             },
-            "DESHA": {
-              "county": "DESHA",
+            "MILLER": {
+              "county": "MILLER",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55878,8 +55692,8 @@
                 "color": "#67000d"
               }
             },
-            "DREW": {
-              "county": "DREW",
+            "WOODRUFF": {
+              "county": "WOODRUFF",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55899,8 +55713,8 @@
                 "color": "#a50f15"
               }
             },
-            "FAULKNER": {
-              "county": "FAULKNER",
+            "ASHLEY": {
+              "county": "ASHLEY",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55920,8 +55734,8 @@
                 "color": "#a50f15"
               }
             },
-            "FRANKLIN": {
-              "county": "FRANKLIN",
+            "MADISON": {
+              "county": "MADISON",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55941,8 +55755,8 @@
                 "color": "#67000d"
               }
             },
-            "FULTON": {
-              "county": "FULTON",
+            "DESHA": {
+              "county": "DESHA",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55962,8 +55776,8 @@
                 "color": "#c6dbef"
               }
             },
-            "GARLAND": {
-              "county": "GARLAND",
+            "BRADLEY": {
+              "county": "BRADLEY",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -55983,8 +55797,8 @@
                 "color": "#67000d"
               }
             },
-            "GRANT": {
-              "county": "GRANT",
+            "MARION": {
+              "county": "MARION",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56004,8 +55818,8 @@
                 "color": "#67000d"
               }
             },
-            "GREENE": {
-              "county": "GREENE",
+            "CRAIGHEAD": {
+              "county": "CRAIGHEAD",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56025,8 +55839,8 @@
                 "color": "#a50f15"
               }
             },
-            "HEMPSTEAD": {
-              "county": "HEMPSTEAD",
+            "CLAY": {
+              "county": "CLAY",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56046,8 +55860,8 @@
                 "color": "#67000d"
               }
             },
-            "HOT SPRING": {
-              "county": "HOT SPRING",
+            "CROSS": {
+              "county": "CROSS",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56067,8 +55881,8 @@
                 "color": "#cb181d"
               }
             },
-            "HOWARD": {
-              "county": "HOWARD",
+            "CONWAY": {
+              "county": "CONWAY",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56088,8 +55902,8 @@
                 "color": "#a50f15"
               }
             },
-            "INDEPENDENCE": {
-              "county": "INDEPENDENCE",
+            "MISSISSIPPI": {
+              "county": "MISSISSIPPI",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56109,8 +55923,8 @@
                 "color": "#cb181d"
               }
             },
-            "IZARD": {
-              "county": "IZARD",
+            "BOONE": {
+              "county": "BOONE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56130,8 +55944,8 @@
                 "color": "#67000d"
               }
             },
-            "JACKSON": {
-              "county": "JACKSON",
+            "DREW": {
+              "county": "DREW",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56151,8 +55965,8 @@
                 "color": "#67000d"
               }
             },
-            "JOHNSON": {
-              "county": "JOHNSON",
+            "PIKE": {
+              "county": "PIKE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56172,8 +55986,8 @@
                 "color": "#67000d"
               }
             },
-            "LAFAYETTE": {
-              "county": "LAFAYETTE",
+            "UNION": {
+              "county": "UNION",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56193,8 +56007,8 @@
                 "color": "#a50f15"
               }
             },
-            "LAWRENCE": {
-              "county": "LAWRENCE",
+            "SEBASTIAN": {
+              "county": "SEBASTIAN",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56214,8 +56028,8 @@
                 "color": "#a50f15"
               }
             },
-            "LEE": {
-              "county": "LEE",
+            "CHICOT": {
+              "county": "CHICOT",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56235,8 +56049,8 @@
                 "color": "#67000d"
               }
             },
-            "LINCOLN": {
-              "county": "LINCOLN",
+            "COLUMBIA": {
+              "county": "COLUMBIA",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56256,8 +56070,8 @@
                 "color": "#67000d"
               }
             },
-            "LITTLE RIVER": {
-              "county": "LITTLE RIVER",
+            "MONTGOMERY": {
+              "county": "MONTGOMERY",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56277,8 +56091,8 @@
                 "color": "#67000d"
               }
             },
-            "LOGAN": {
-              "county": "LOGAN",
+            "PERRY": {
+              "county": "PERRY",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56298,8 +56112,8 @@
                 "color": "#67000d"
               }
             },
-            "LONOKE": {
-              "county": "LONOKE",
+            "JACKSON": {
+              "county": "JACKSON",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56319,8 +56133,8 @@
                 "color": "#67000d"
               }
             },
-            "MADISON": {
-              "county": "MADISON",
+            "CRITTENDEN": {
+              "county": "CRITTENDEN",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56340,8 +56154,8 @@
                 "color": "#67000d"
               }
             },
-            "MARION": {
-              "county": "MARION",
+            "HEMPSTEAD": {
+              "county": "HEMPSTEAD",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56361,8 +56175,8 @@
                 "color": "#67000d"
               }
             },
-            "MILLER": {
-              "county": "MILLER",
+            "POPE": {
+              "county": "POPE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56382,8 +56196,8 @@
                 "color": "#67000d"
               }
             },
-            "MISSISSIPPI": {
-              "county": "MISSISSIPPI",
+            "WASHINGTON": {
+              "county": "WASHINGTON",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56403,8 +56217,8 @@
                 "color": "#e1f5fe"
               }
             },
-            "MONROE": {
-              "county": "MONROE",
+            "JEFFERSON": {
+              "county": "JEFFERSON",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56424,8 +56238,8 @@
                 "color": "#67000d"
               }
             },
-            "MONTGOMERY": {
-              "county": "MONTGOMERY",
+            "STONE": {
+              "county": "STONE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56445,8 +56259,8 @@
                 "color": "#67000d"
               }
             },
-            "NEVADA": {
-              "county": "NEVADA",
+            "BAXTER": {
+              "county": "BAXTER",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56466,8 +56280,8 @@
                 "color": "#67000d"
               }
             },
-            "NEWTON": {
-              "county": "NEWTON",
+            "SEARCY": {
+              "county": "SEARCY",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56487,8 +56301,8 @@
                 "color": "#67000d"
               }
             },
-            "OUACHITA": {
-              "county": "OUACHITA",
+            "VAN BUREN": {
+              "county": "VAN BUREN",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56508,8 +56322,8 @@
                 "color": "#67000d"
               }
             },
-            "PERRY": {
-              "county": "PERRY",
+            "RANDOLPH": {
+              "county": "RANDOLPH",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56529,8 +56343,8 @@
                 "color": "#e1f5fe"
               }
             },
-            "PHILLIPS": {
-              "county": "PHILLIPS",
+            "DALLAS": {
+              "county": "DALLAS",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56550,8 +56364,8 @@
                 "color": "#c6dbef"
               }
             },
-            "PIKE": {
-              "county": "PIKE",
+            "MONROE": {
+              "county": "MONROE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56571,8 +56385,8 @@
                 "color": "#a50f15"
               }
             },
-            "POINSETT": {
-              "county": "POINSETT",
+            "LEE": {
+              "county": "LEE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56592,8 +56406,8 @@
                 "color": "#ef3b2c"
               }
             },
-            "POLK": {
-              "county": "POLK",
+            "IZARD": {
+              "county": "IZARD",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56613,8 +56427,8 @@
                 "color": "#6baed6"
               }
             },
-            "POPE": {
-              "county": "POPE",
+            "LAWRENCE": {
+              "county": "LAWRENCE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56634,8 +56448,8 @@
                 "color": "#67000d"
               }
             },
-            "PRAIRIE": {
-              "county": "PRAIRIE",
+            "SCOTT": {
+              "county": "SCOTT",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56655,8 +56469,8 @@
                 "color": "#67000d"
               }
             },
-            "ARKANSAS": {
-              "county": "ARKANSAS",
+            "POLK": {
+              "county": "POLK",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56676,8 +56490,8 @@
                 "color": "#67000d"
               }
             },
-            "COLUMBIA": {
-              "county": "COLUMBIA",
+            "LINCOLN": {
+              "county": "LINCOLN",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56697,8 +56511,8 @@
                 "color": "#fcae91"
               }
             },
-            "RANDOLPH": {
-              "county": "RANDOLPH",
+            "CLEVELAND": {
+              "county": "CLEVELAND",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56718,8 +56532,8 @@
                 "color": "#67000d"
               }
             },
-            "SALINE": {
-              "county": "SALINE",
+            "INDEPENDENCE": {
+              "county": "INDEPENDENCE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56739,8 +56553,8 @@
                 "color": "#67000d"
               }
             },
-            "SCOTT": {
-              "county": "SCOTT",
+            "CLEBURNE": {
+              "county": "CLEBURNE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56760,8 +56574,8 @@
                 "color": "#67000d"
               }
             },
-            "SEARCY": {
-              "county": "SEARCY",
+            "SEVIER": {
+              "county": "SEVIER",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56781,8 +56595,8 @@
                 "color": "#67000d"
               }
             },
-            "SEBASTIAN": {
-              "county": "SEBASTIAN",
+            "WHITE": {
+              "county": "WHITE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56802,8 +56616,8 @@
                 "color": "#67000d"
               }
             },
-            "SEVIER": {
-              "county": "SEVIER",
+            "LOGAN": {
+              "county": "LOGAN",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56823,8 +56637,8 @@
                 "color": "#67000d"
               }
             },
-            "SHARP": {
-              "county": "SHARP",
+            "ST FRANCIS": {
+              "county": "ST FRANCIS",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56844,8 +56658,8 @@
                 "color": "#67000d"
               }
             },
-            "STONE": {
-              "county": "STONE",
+            "SALINE": {
+              "county": "SALINE",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56865,8 +56679,8 @@
                 "color": "#67000d"
               }
             },
-            "ST. FRANCIS": {
-              "county": "ST. FRANCIS",
+            "FULTON": {
+              "county": "FULTON",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56886,8 +56700,8 @@
                 "color": "#67000d"
               }
             },
-            "UNION": {
-              "county": "UNION",
+            "NEWTON": {
+              "county": "NEWTON",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56907,8 +56721,8 @@
                 "color": "#67000d"
               }
             },
-            "VAN BUREN": {
-              "county": "VAN BUREN",
+            "FRANKLIN": {
+              "county": "FRANKLIN",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56928,8 +56742,8 @@
                 "color": "#67000d"
               }
             },
-            "YELL": {
-              "county": "YELL",
+            "JOHNSON": {
+              "county": "JOHNSON",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56949,8 +56763,8 @@
                 "color": "#67000d"
               }
             },
-            "WHITE": {
-              "county": "WHITE",
+            "POINSETT": {
+              "county": "POINSETT",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56970,8 +56784,8 @@
                 "color": "#67000d"
               }
             },
-            "WOODRUFF": {
-              "county": "WOODRUFF",
+            "HOT SPRING": {
+              "county": "HOT SPRING",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -56991,8 +56805,8 @@
                 "color": "#67000d"
               }
             },
-            "DALLAS": {
-              "county": "DALLAS",
+            "GARLAND": {
+              "county": "GARLAND",
               "contest": "Governor",
               "year": "2022",
               "dem_candidate": "Chris Jones",
@@ -57040,8 +56854,8 @@
                 "color": "#08306b"
               }
             },
-            "ASHLEY": {
-              "county": "ASHLEY",
+            "CLARK": {
+              "county": "CLARK",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57061,8 +56875,8 @@
                 "color": "#08306b"
               }
             },
-            "BAXTER": {
-              "county": "BAXTER",
+            "OUACHITA": {
+              "county": "OUACHITA",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57082,8 +56896,8 @@
                 "color": "#08306b"
               }
             },
-            "BENTON": {
-              "county": "BENTON",
+            "LONOKE": {
+              "county": "LONOKE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57103,8 +56917,8 @@
                 "color": "#08306b"
               }
             },
-            "BOONE": {
-              "county": "BOONE",
+            "PHILLIPS": {
+              "county": "PHILLIPS",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57124,8 +56938,8 @@
                 "color": "#08306b"
               }
             },
-            "BRADLEY": {
-              "county": "BRADLEY",
+            "NEVADA": {
+              "county": "NEVADA",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57145,8 +56959,8 @@
                 "color": "#08306b"
               }
             },
-            "CALHOUN": {
-              "county": "CALHOUN",
+            "GRANT": {
+              "county": "GRANT",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57166,8 +56980,8 @@
                 "color": "#08306b"
               }
             },
-            "CARROLL": {
-              "county": "CARROLL",
+            "LAFAYETTE": {
+              "county": "LAFAYETTE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57187,8 +57001,8 @@
                 "color": "#08306b"
               }
             },
-            "WASHINGTON": {
-              "county": "WASHINGTON",
+            "BENTON": {
+              "county": "BENTON",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57208,8 +57022,8 @@
                 "color": "#08306b"
               }
             },
-            "JEFFERSON": {
-              "county": "JEFFERSON",
+            "GREENE": {
+              "county": "GREENE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57229,8 +57043,8 @@
                 "color": "#08306b"
               }
             },
-            "CLAY": {
-              "county": "CLAY",
+            "LITTLE RIVER": {
+              "county": "LITTLE RIVER",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57250,8 +57064,8 @@
                 "color": "#08306b"
               }
             },
-            "CLEBURNE": {
-              "county": "CLEBURNE",
+            "SHARP": {
+              "county": "SHARP",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57271,8 +57085,8 @@
                 "color": "#08306b"
               }
             },
-            "CRITTENDEN": {
-              "county": "CRITTENDEN",
+            "CRAWFORD": {
+              "county": "CRAWFORD",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57292,8 +57106,8 @@
                 "color": "#08306b"
               }
             },
-            "CHICOT": {
-              "county": "CHICOT",
+            "HOWARD": {
+              "county": "HOWARD",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57313,8 +57127,8 @@
                 "color": "#08306b"
               }
             },
-            "CONWAY": {
-              "county": "CONWAY",
+            "ARKANSAS": {
+              "county": "ARKANSAS",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57334,8 +57148,8 @@
                 "color": "#08306b"
               }
             },
-            "CRAIGHEAD": {
-              "county": "CRAIGHEAD",
+            "YELL": {
+              "county": "YELL",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57355,8 +57169,8 @@
                 "color": "#08306b"
               }
             },
-            "CRAWFORD": {
-              "county": "CRAWFORD",
+            "FAULKNER": {
+              "county": "FAULKNER",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57376,8 +57190,8 @@
                 "color": "#08306b"
               }
             },
-            "CROSS": {
-              "county": "CROSS",
+            "PRAIRIE": {
+              "county": "PRAIRIE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57397,8 +57211,8 @@
                 "color": "#08306b"
               }
             },
-            "CLEVELAND": {
-              "county": "CLEVELAND",
+            "CALHOUN": {
+              "county": "CALHOUN",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57418,8 +57232,8 @@
                 "color": "#08306b"
               }
             },
-            "CLARK": {
-              "county": "CLARK",
+            "CARROLL": {
+              "county": "CARROLL",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57439,8 +57253,8 @@
                 "color": "#08306b"
               }
             },
-            "DESHA": {
-              "county": "DESHA",
+            "MILLER": {
+              "county": "MILLER",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57460,8 +57274,8 @@
                 "color": "#08306b"
               }
             },
-            "DREW": {
-              "county": "DREW",
+            "WOODRUFF": {
+              "county": "WOODRUFF",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57481,8 +57295,8 @@
                 "color": "#08306b"
               }
             },
-            "FAULKNER": {
-              "county": "FAULKNER",
+            "ASHLEY": {
+              "county": "ASHLEY",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57502,8 +57316,8 @@
                 "color": "#08306b"
               }
             },
-            "FRANKLIN": {
-              "county": "FRANKLIN",
+            "MADISON": {
+              "county": "MADISON",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57523,8 +57337,8 @@
                 "color": "#08306b"
               }
             },
-            "FULTON": {
-              "county": "FULTON",
+            "DESHA": {
+              "county": "DESHA",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57544,8 +57358,8 @@
                 "color": "#08306b"
               }
             },
-            "GARLAND": {
-              "county": "GARLAND",
+            "BRADLEY": {
+              "county": "BRADLEY",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57565,8 +57379,8 @@
                 "color": "#08306b"
               }
             },
-            "GRANT": {
-              "county": "GRANT",
+            "MARION": {
+              "county": "MARION",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57586,8 +57400,8 @@
                 "color": "#08306b"
               }
             },
-            "GREENE": {
-              "county": "GREENE",
+            "CRAIGHEAD": {
+              "county": "CRAIGHEAD",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57607,8 +57421,8 @@
                 "color": "#08306b"
               }
             },
-            "HEMPSTEAD": {
-              "county": "HEMPSTEAD",
+            "CLAY": {
+              "county": "CLAY",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57628,8 +57442,8 @@
                 "color": "#08306b"
               }
             },
-            "HOT SPRING": {
-              "county": "HOT SPRING",
+            "CROSS": {
+              "county": "CROSS",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57649,8 +57463,8 @@
                 "color": "#08306b"
               }
             },
-            "HOWARD": {
-              "county": "HOWARD",
+            "CONWAY": {
+              "county": "CONWAY",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57670,8 +57484,8 @@
                 "color": "#08306b"
               }
             },
-            "INDEPENDENCE": {
-              "county": "INDEPENDENCE",
+            "MISSISSIPPI": {
+              "county": "MISSISSIPPI",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57691,8 +57505,8 @@
                 "color": "#08306b"
               }
             },
-            "IZARD": {
-              "county": "IZARD",
+            "BOONE": {
+              "county": "BOONE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57712,8 +57526,8 @@
                 "color": "#08306b"
               }
             },
-            "JACKSON": {
-              "county": "JACKSON",
+            "DREW": {
+              "county": "DREW",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57733,8 +57547,8 @@
                 "color": "#08306b"
               }
             },
-            "JOHNSON": {
-              "county": "JOHNSON",
+            "PIKE": {
+              "county": "PIKE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57754,8 +57568,8 @@
                 "color": "#08306b"
               }
             },
-            "LAFAYETTE": {
-              "county": "LAFAYETTE",
+            "UNION": {
+              "county": "UNION",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57775,8 +57589,8 @@
                 "color": "#08306b"
               }
             },
-            "LAWRENCE": {
-              "county": "LAWRENCE",
+            "SEBASTIAN": {
+              "county": "SEBASTIAN",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57796,8 +57610,8 @@
                 "color": "#08306b"
               }
             },
-            "LEE": {
-              "county": "LEE",
+            "CHICOT": {
+              "county": "CHICOT",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57817,8 +57631,8 @@
                 "color": "#08306b"
               }
             },
-            "LINCOLN": {
-              "county": "LINCOLN",
+            "COLUMBIA": {
+              "county": "COLUMBIA",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57838,8 +57652,8 @@
                 "color": "#08306b"
               }
             },
-            "LITTLE RIVER": {
-              "county": "LITTLE RIVER",
+            "MONTGOMERY": {
+              "county": "MONTGOMERY",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57859,8 +57673,8 @@
                 "color": "#08306b"
               }
             },
-            "LOGAN": {
-              "county": "LOGAN",
+            "PERRY": {
+              "county": "PERRY",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57880,8 +57694,8 @@
                 "color": "#08306b"
               }
             },
-            "LONOKE": {
-              "county": "LONOKE",
+            "JACKSON": {
+              "county": "JACKSON",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57901,8 +57715,8 @@
                 "color": "#08306b"
               }
             },
-            "MADISON": {
-              "county": "MADISON",
+            "CRITTENDEN": {
+              "county": "CRITTENDEN",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57922,8 +57736,8 @@
                 "color": "#08306b"
               }
             },
-            "MARION": {
-              "county": "MARION",
+            "HEMPSTEAD": {
+              "county": "HEMPSTEAD",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57943,8 +57757,8 @@
                 "color": "#08306b"
               }
             },
-            "MILLER": {
-              "county": "MILLER",
+            "POPE": {
+              "county": "POPE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57964,8 +57778,8 @@
                 "color": "#08306b"
               }
             },
-            "MISSISSIPPI": {
-              "county": "MISSISSIPPI",
+            "WASHINGTON": {
+              "county": "WASHINGTON",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -57985,8 +57799,8 @@
                 "color": "#08306b"
               }
             },
-            "MONROE": {
-              "county": "MONROE",
+            "JEFFERSON": {
+              "county": "JEFFERSON",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58006,8 +57820,8 @@
                 "color": "#08306b"
               }
             },
-            "MONTGOMERY": {
-              "county": "MONTGOMERY",
+            "STONE": {
+              "county": "STONE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58027,8 +57841,8 @@
                 "color": "#08306b"
               }
             },
-            "NEVADA": {
-              "county": "NEVADA",
+            "BAXTER": {
+              "county": "BAXTER",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58048,8 +57862,8 @@
                 "color": "#08306b"
               }
             },
-            "NEWTON": {
-              "county": "NEWTON",
+            "SEARCY": {
+              "county": "SEARCY",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58069,8 +57883,8 @@
                 "color": "#08306b"
               }
             },
-            "OUACHITA": {
-              "county": "OUACHITA",
+            "VAN BUREN": {
+              "county": "VAN BUREN",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58090,8 +57904,8 @@
                 "color": "#08306b"
               }
             },
-            "PERRY": {
-              "county": "PERRY",
+            "RANDOLPH": {
+              "county": "RANDOLPH",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58111,8 +57925,8 @@
                 "color": "#08306b"
               }
             },
-            "PHILLIPS": {
-              "county": "PHILLIPS",
+            "DALLAS": {
+              "county": "DALLAS",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58132,8 +57946,8 @@
                 "color": "#08306b"
               }
             },
-            "PIKE": {
-              "county": "PIKE",
+            "MONROE": {
+              "county": "MONROE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58153,8 +57967,8 @@
                 "color": "#08306b"
               }
             },
-            "POINSETT": {
-              "county": "POINSETT",
+            "LEE": {
+              "county": "LEE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58174,8 +57988,8 @@
                 "color": "#08306b"
               }
             },
-            "POLK": {
-              "county": "POLK",
+            "IZARD": {
+              "county": "IZARD",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58195,8 +58009,8 @@
                 "color": "#08306b"
               }
             },
-            "POPE": {
-              "county": "POPE",
+            "LAWRENCE": {
+              "county": "LAWRENCE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58216,8 +58030,8 @@
                 "color": "#08306b"
               }
             },
-            "PRAIRIE": {
-              "county": "PRAIRIE",
+            "SCOTT": {
+              "county": "SCOTT",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58237,8 +58051,8 @@
                 "color": "#08306b"
               }
             },
-            "ARKANSAS": {
-              "county": "ARKANSAS",
+            "POLK": {
+              "county": "POLK",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58258,8 +58072,8 @@
                 "color": "#08306b"
               }
             },
-            "COLUMBIA": {
-              "county": "COLUMBIA",
+            "LINCOLN": {
+              "county": "LINCOLN",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58279,8 +58093,8 @@
                 "color": "#08306b"
               }
             },
-            "RANDOLPH": {
-              "county": "RANDOLPH",
+            "CLEVELAND": {
+              "county": "CLEVELAND",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58300,8 +58114,8 @@
                 "color": "#08306b"
               }
             },
-            "SALINE": {
-              "county": "SALINE",
+            "INDEPENDENCE": {
+              "county": "INDEPENDENCE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58321,8 +58135,8 @@
                 "color": "#08306b"
               }
             },
-            "SCOTT": {
-              "county": "SCOTT",
+            "CLEBURNE": {
+              "county": "CLEBURNE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58342,8 +58156,8 @@
                 "color": "#08306b"
               }
             },
-            "SEARCY": {
-              "county": "SEARCY",
+            "SEVIER": {
+              "county": "SEVIER",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58363,8 +58177,8 @@
                 "color": "#08306b"
               }
             },
-            "SEBASTIAN": {
-              "county": "SEBASTIAN",
+            "WHITE": {
+              "county": "WHITE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58384,8 +58198,8 @@
                 "color": "#08306b"
               }
             },
-            "SEVIER": {
-              "county": "SEVIER",
+            "LOGAN": {
+              "county": "LOGAN",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58405,8 +58219,8 @@
                 "color": "#08306b"
               }
             },
-            "SHARP": {
-              "county": "SHARP",
+            "ST FRANCIS": {
+              "county": "ST FRANCIS",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58426,8 +58240,8 @@
                 "color": "#08306b"
               }
             },
-            "STONE": {
-              "county": "STONE",
+            "SALINE": {
+              "county": "SALINE",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58447,8 +58261,8 @@
                 "color": "#08306b"
               }
             },
-            "ST. FRANCIS": {
-              "county": "ST. FRANCIS",
+            "FULTON": {
+              "county": "FULTON",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58468,8 +58282,8 @@
                 "color": "#08306b"
               }
             },
-            "UNION": {
-              "county": "UNION",
+            "NEWTON": {
+              "county": "NEWTON",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58489,8 +58303,8 @@
                 "color": "#08306b"
               }
             },
-            "VAN BUREN": {
-              "county": "VAN BUREN",
+            "FRANKLIN": {
+              "county": "FRANKLIN",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58510,8 +58324,8 @@
                 "color": "#08306b"
               }
             },
-            "YELL": {
-              "county": "YELL",
+            "JOHNSON": {
+              "county": "JOHNSON",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58531,8 +58345,8 @@
                 "color": "#08306b"
               }
             },
-            "WHITE": {
-              "county": "WHITE",
+            "POINSETT": {
+              "county": "POINSETT",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58552,8 +58366,8 @@
                 "color": "#08306b"
               }
             },
-            "WOODRUFF": {
-              "county": "WOODRUFF",
+            "HOT SPRING": {
+              "county": "HOT SPRING",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58573,8 +58387,8 @@
                 "color": "#08306b"
               }
             },
-            "DALLAS": {
-              "county": "DALLAS",
+            "GARLAND": {
+              "county": "GARLAND",
               "contest": "Lieutenant Governor",
               "year": "2022",
               "dem_candidate": "Kelly Ross Krout",
@@ -58624,8 +58438,8 @@
                 "color": "#3182bd"
               }
             },
-            "ASHLEY": {
-              "county": "ASHLEY",
+            "CLARK": {
+              "county": "CLARK",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58645,8 +58459,8 @@
                 "color": "#67000d"
               }
             },
-            "BAXTER": {
-              "county": "BAXTER",
+            "OUACHITA": {
+              "county": "OUACHITA",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58666,8 +58480,8 @@
                 "color": "#ef3b2c"
               }
             },
-            "BENTON": {
-              "county": "BENTON",
+            "LONOKE": {
+              "county": "LONOKE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58687,8 +58501,8 @@
                 "color": "#67000d"
               }
             },
-            "BOONE": {
-              "county": "BOONE",
+            "PHILLIPS": {
+              "county": "PHILLIPS",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58708,8 +58522,8 @@
                 "color": "#67000d"
               }
             },
-            "BRADLEY": {
-              "county": "BRADLEY",
+            "NEVADA": {
+              "county": "NEVADA",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58729,8 +58543,8 @@
                 "color": "#67000d"
               }
             },
-            "CALHOUN": {
-              "county": "CALHOUN",
+            "GRANT": {
+              "county": "GRANT",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58750,8 +58564,8 @@
                 "color": "#cb181d"
               }
             },
-            "CARROLL": {
-              "county": "CARROLL",
+            "LAFAYETTE": {
+              "county": "LAFAYETTE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58771,8 +58585,8 @@
                 "color": "#cb181d"
               }
             },
-            "WASHINGTON": {
-              "county": "WASHINGTON",
+            "BENTON": {
+              "county": "BENTON",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58792,8 +58606,8 @@
                 "color": "#cb181d"
               }
             },
-            "JEFFERSON": {
-              "county": "JEFFERSON",
+            "GREENE": {
+              "county": "GREENE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58813,8 +58627,8 @@
                 "color": "#c6dbef"
               }
             },
-            "CLAY": {
-              "county": "CLAY",
+            "LITTLE RIVER": {
+              "county": "LITTLE RIVER",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58834,8 +58648,8 @@
                 "color": "#67000d"
               }
             },
-            "CLEBURNE": {
-              "county": "CLEBURNE",
+            "SHARP": {
+              "county": "SHARP",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58855,8 +58669,8 @@
                 "color": "#67000d"
               }
             },
-            "CRITTENDEN": {
-              "county": "CRITTENDEN",
+            "CRAWFORD": {
+              "county": "CRAWFORD",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58876,8 +58690,8 @@
                 "color": "#3182bd"
               }
             },
-            "CHICOT": {
-              "county": "CHICOT",
+            "HOWARD": {
+              "county": "HOWARD",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58897,8 +58711,8 @@
                 "color": "#67000d"
               }
             },
-            "CONWAY": {
-              "county": "CONWAY",
+            "ARKANSAS": {
+              "county": "ARKANSAS",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58918,8 +58732,8 @@
                 "color": "#67000d"
               }
             },
-            "CRAIGHEAD": {
-              "county": "CRAIGHEAD",
+            "YELL": {
+              "county": "YELL",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58939,8 +58753,8 @@
                 "color": "#67000d"
               }
             },
-            "CRAWFORD": {
-              "county": "CRAWFORD",
+            "FAULKNER": {
+              "county": "FAULKNER",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58960,8 +58774,8 @@
                 "color": "#a50f15"
               }
             },
-            "CROSS": {
-              "county": "CROSS",
+            "PRAIRIE": {
+              "county": "PRAIRIE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -58981,8 +58795,8 @@
                 "color": "#a50f15"
               }
             },
-            "CLEVELAND": {
-              "county": "CLEVELAND",
+            "CALHOUN": {
+              "county": "CALHOUN",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59002,8 +58816,8 @@
                 "color": "#67000d"
               }
             },
-            "CLARK": {
-              "county": "CLARK",
+            "CARROLL": {
+              "county": "CARROLL",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59023,8 +58837,8 @@
                 "color": "#a50f15"
               }
             },
-            "DESHA": {
-              "county": "DESHA",
+            "MILLER": {
+              "county": "MILLER",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59044,8 +58858,8 @@
                 "color": "#67000d"
               }
             },
-            "DREW": {
-              "county": "DREW",
+            "WOODRUFF": {
+              "county": "WOODRUFF",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59065,8 +58879,8 @@
                 "color": "#a50f15"
               }
             },
-            "FAULKNER": {
-              "county": "FAULKNER",
+            "ASHLEY": {
+              "county": "ASHLEY",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59086,8 +58900,8 @@
                 "color": "#a50f15"
               }
             },
-            "FRANKLIN": {
-              "county": "FRANKLIN",
+            "MADISON": {
+              "county": "MADISON",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59107,8 +58921,8 @@
                 "color": "#67000d"
               }
             },
-            "FULTON": {
-              "county": "FULTON",
+            "DESHA": {
+              "county": "DESHA",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59128,8 +58942,8 @@
                 "color": "#c6dbef"
               }
             },
-            "GARLAND": {
-              "county": "GARLAND",
+            "BRADLEY": {
+              "county": "BRADLEY",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59149,8 +58963,8 @@
                 "color": "#67000d"
               }
             },
-            "GRANT": {
-              "county": "GRANT",
+            "MARION": {
+              "county": "MARION",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59170,8 +58984,8 @@
                 "color": "#67000d"
               }
             },
-            "GREENE": {
-              "county": "GREENE",
+            "CRAIGHEAD": {
+              "county": "CRAIGHEAD",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59191,8 +59005,8 @@
                 "color": "#a50f15"
               }
             },
-            "HEMPSTEAD": {
-              "county": "HEMPSTEAD",
+            "CLAY": {
+              "county": "CLAY",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59212,8 +59026,8 @@
                 "color": "#67000d"
               }
             },
-            "HOT SPRING": {
-              "county": "HOT SPRING",
+            "CROSS": {
+              "county": "CROSS",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59233,8 +59047,8 @@
                 "color": "#a50f15"
               }
             },
-            "HOWARD": {
-              "county": "HOWARD",
+            "CONWAY": {
+              "county": "CONWAY",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59254,8 +59068,8 @@
                 "color": "#a50f15"
               }
             },
-            "INDEPENDENCE": {
-              "county": "INDEPENDENCE",
+            "MISSISSIPPI": {
+              "county": "MISSISSIPPI",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59275,8 +59089,8 @@
                 "color": "#a50f15"
               }
             },
-            "IZARD": {
-              "county": "IZARD",
+            "BOONE": {
+              "county": "BOONE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59296,8 +59110,8 @@
                 "color": "#67000d"
               }
             },
-            "JACKSON": {
-              "county": "JACKSON",
+            "DREW": {
+              "county": "DREW",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59317,8 +59131,8 @@
                 "color": "#67000d"
               }
             },
-            "JOHNSON": {
-              "county": "JOHNSON",
+            "PIKE": {
+              "county": "PIKE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59338,8 +59152,8 @@
                 "color": "#67000d"
               }
             },
-            "LAFAYETTE": {
-              "county": "LAFAYETTE",
+            "UNION": {
+              "county": "UNION",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59359,8 +59173,8 @@
                 "color": "#a50f15"
               }
             },
-            "LAWRENCE": {
-              "county": "LAWRENCE",
+            "SEBASTIAN": {
+              "county": "SEBASTIAN",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59380,8 +59194,8 @@
                 "color": "#a50f15"
               }
             },
-            "LEE": {
-              "county": "LEE",
+            "CHICOT": {
+              "county": "CHICOT",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59401,8 +59215,8 @@
                 "color": "#67000d"
               }
             },
-            "LINCOLN": {
-              "county": "LINCOLN",
+            "COLUMBIA": {
+              "county": "COLUMBIA",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59422,8 +59236,8 @@
                 "color": "#67000d"
               }
             },
-            "LITTLE RIVER": {
-              "county": "LITTLE RIVER",
+            "MONTGOMERY": {
+              "county": "MONTGOMERY",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59443,8 +59257,8 @@
                 "color": "#67000d"
               }
             },
-            "LOGAN": {
-              "county": "LOGAN",
+            "PERRY": {
+              "county": "PERRY",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59464,8 +59278,8 @@
                 "color": "#67000d"
               }
             },
-            "LONOKE": {
-              "county": "LONOKE",
+            "JACKSON": {
+              "county": "JACKSON",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59485,8 +59299,8 @@
                 "color": "#67000d"
               }
             },
-            "MADISON": {
-              "county": "MADISON",
+            "CRITTENDEN": {
+              "county": "CRITTENDEN",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59506,8 +59320,8 @@
                 "color": "#67000d"
               }
             },
-            "MARION": {
-              "county": "MARION",
+            "HEMPSTEAD": {
+              "county": "HEMPSTEAD",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59527,8 +59341,8 @@
                 "color": "#67000d"
               }
             },
-            "MILLER": {
-              "county": "MILLER",
+            "POPE": {
+              "county": "POPE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59548,8 +59362,8 @@
                 "color": "#67000d"
               }
             },
-            "MISSISSIPPI": {
-              "county": "MISSISSIPPI",
+            "WASHINGTON": {
+              "county": "WASHINGTON",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59569,8 +59383,8 @@
                 "color": "#fb6a4a"
               }
             },
-            "MONROE": {
-              "county": "MONROE",
+            "JEFFERSON": {
+              "county": "JEFFERSON",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59590,8 +59404,8 @@
                 "color": "#67000d"
               }
             },
-            "MONTGOMERY": {
-              "county": "MONTGOMERY",
+            "STONE": {
+              "county": "STONE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59611,8 +59425,8 @@
                 "color": "#67000d"
               }
             },
-            "NEVADA": {
-              "county": "NEVADA",
+            "BAXTER": {
+              "county": "BAXTER",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59632,8 +59446,8 @@
                 "color": "#67000d"
               }
             },
-            "NEWTON": {
-              "county": "NEWTON",
+            "SEARCY": {
+              "county": "SEARCY",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59653,8 +59467,8 @@
                 "color": "#67000d"
               }
             },
-            "OUACHITA": {
-              "county": "OUACHITA",
+            "VAN BUREN": {
+              "county": "VAN BUREN",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59674,8 +59488,8 @@
                 "color": "#67000d"
               }
             },
-            "PERRY": {
-              "county": "PERRY",
+            "RANDOLPH": {
+              "county": "RANDOLPH",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59695,8 +59509,8 @@
                 "color": "#e1f5fe"
               }
             },
-            "PHILLIPS": {
-              "county": "PHILLIPS",
+            "DALLAS": {
+              "county": "DALLAS",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59716,8 +59530,8 @@
                 "color": "#c6dbef"
               }
             },
-            "PIKE": {
-              "county": "PIKE",
+            "MONROE": {
+              "county": "MONROE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59737,8 +59551,8 @@
                 "color": "#a50f15"
               }
             },
-            "POINSETT": {
-              "county": "POINSETT",
+            "LEE": {
+              "county": "LEE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59758,8 +59572,8 @@
                 "color": "#ef3b2c"
               }
             },
-            "POLK": {
-              "county": "POLK",
+            "IZARD": {
+              "county": "IZARD",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59779,8 +59593,8 @@
                 "color": "#6baed6"
               }
             },
-            "POPE": {
-              "county": "POPE",
+            "LAWRENCE": {
+              "county": "LAWRENCE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59800,8 +59614,8 @@
                 "color": "#67000d"
               }
             },
-            "PRAIRIE": {
-              "county": "PRAIRIE",
+            "SCOTT": {
+              "county": "SCOTT",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59821,8 +59635,8 @@
                 "color": "#67000d"
               }
             },
-            "ARKANSAS": {
-              "county": "ARKANSAS",
+            "POLK": {
+              "county": "POLK",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59842,8 +59656,8 @@
                 "color": "#67000d"
               }
             },
-            "COLUMBIA": {
-              "county": "COLUMBIA",
+            "LINCOLN": {
+              "county": "LINCOLN",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59863,8 +59677,8 @@
                 "color": "#fcae91"
               }
             },
-            "RANDOLPH": {
-              "county": "RANDOLPH",
+            "CLEVELAND": {
+              "county": "CLEVELAND",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59884,8 +59698,8 @@
                 "color": "#67000d"
               }
             },
-            "SALINE": {
-              "county": "SALINE",
+            "INDEPENDENCE": {
+              "county": "INDEPENDENCE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59905,8 +59719,8 @@
                 "color": "#67000d"
               }
             },
-            "SCOTT": {
-              "county": "SCOTT",
+            "CLEBURNE": {
+              "county": "CLEBURNE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59926,8 +59740,8 @@
                 "color": "#67000d"
               }
             },
-            "SEARCY": {
-              "county": "SEARCY",
+            "SEVIER": {
+              "county": "SEVIER",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59947,8 +59761,8 @@
                 "color": "#67000d"
               }
             },
-            "SEBASTIAN": {
-              "county": "SEBASTIAN",
+            "WHITE": {
+              "county": "WHITE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59968,8 +59782,8 @@
                 "color": "#67000d"
               }
             },
-            "SEVIER": {
-              "county": "SEVIER",
+            "LOGAN": {
+              "county": "LOGAN",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -59989,8 +59803,8 @@
                 "color": "#67000d"
               }
             },
-            "SHARP": {
-              "county": "SHARP",
+            "ST FRANCIS": {
+              "county": "ST FRANCIS",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -60010,8 +59824,8 @@
                 "color": "#67000d"
               }
             },
-            "STONE": {
-              "county": "STONE",
+            "SALINE": {
+              "county": "SALINE",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -60031,8 +59845,8 @@
                 "color": "#67000d"
               }
             },
-            "ST. FRANCIS": {
-              "county": "ST. FRANCIS",
+            "FULTON": {
+              "county": "FULTON",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -60052,8 +59866,8 @@
                 "color": "#67000d"
               }
             },
-            "UNION": {
-              "county": "UNION",
+            "NEWTON": {
+              "county": "NEWTON",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -60073,8 +59887,8 @@
                 "color": "#67000d"
               }
             },
-            "VAN BUREN": {
-              "county": "VAN BUREN",
+            "FRANKLIN": {
+              "county": "FRANKLIN",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -60094,8 +59908,8 @@
                 "color": "#67000d"
               }
             },
-            "YELL": {
-              "county": "YELL",
+            "JOHNSON": {
+              "county": "JOHNSON",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -60115,8 +59929,8 @@
                 "color": "#67000d"
               }
             },
-            "WHITE": {
-              "county": "WHITE",
+            "POINSETT": {
+              "county": "POINSETT",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -60136,8 +59950,8 @@
                 "color": "#67000d"
               }
             },
-            "WOODRUFF": {
-              "county": "WOODRUFF",
+            "HOT SPRING": {
+              "county": "HOT SPRING",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
@@ -60157,8 +59971,8 @@
                 "color": "#67000d"
               }
             },
-            "DALLAS": {
-              "county": "DALLAS",
+            "GARLAND": {
+              "county": "GARLAND",
               "contest": "U.S. President",
               "year": "2024",
               "dem_candidate": "Kamala D. Harris/Tim Walz",
