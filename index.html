@@ -159,10 +159,10 @@
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
     <meta charset='utf-8'>
-  <title>Arkansas Political Realignment Map (2020-2024)</title>
+  <title>Arkansas Political Realignment Map (2002-2024)</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'>
-  <meta property="og:title" content="Arkansas Political Realignment Map (2020-2024)">
-  <meta property="og:description" content="Interactive visualization of Arkansas's political trends from 2020 to 2024, showing county-level voting patterns.">
+  <meta property="og:title" content="Arkansas Political Realignment Map (2002-2024)">
+  <meta property="og:description" content="Interactive visualization of Arkansas's political trends from 2002 to 2024, showing county-level voting patterns.">
   <meta property="og:image" content="preview.png">
   <meta name="twitter:card" content="summary_large_image">
     <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css' rel='stylesheet'>
@@ -1216,12 +1216,21 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
             if (contestName && unwantedContests.some(unwanted => contestName.toString().toUpperCase().includes(unwanted))) return;
             
             // Filter out unopposed races (missing either Democratic or Republican candidate)
-            const demCandidate = contest && contest.dem_candidate;
-            const repCandidate = contest && contest.rep_candidate;
-            if (!demCandidate || !repCandidate) {
-              console.log(`Skipping unopposed race: ${contestName} (${year}) - D: ${demCandidate}, R: ${repCandidate}`);
-              return;
+            // Check if the contest has results, and look for dem/rep candidates in those results
+            let hasValidCandidates = false;
+            if (contest && contest.results) {
+              // Get a sample county result to check for candidates
+              const sampleCounty = Object.values(contest.results)[0];
+              if (sampleCounty) {
+                const demCandidate = sampleCounty.dem_candidate || contest.dem_candidate;
+                const repCandidate = sampleCounty.rep_candidate || contest.rep_candidate;
+                hasValidCandidates = !!(demCandidate && repCandidate);
+                if (!hasValidCandidates) {
+                  console.log(`Skipping unopposed race: ${contestName} (${year}) - D: ${demCandidate}, R: ${repCandidate}`);
+                }
+              }
             }
+            if (!hasValidCandidates) return;
             
             if (!groupedByOffice[officeLabel]) groupedByOffice[officeLabel] = [];
             groupedByOffice[officeLabel].push({ year, cat, contestKey, contestName });
