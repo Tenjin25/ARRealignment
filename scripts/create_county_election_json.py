@@ -28,12 +28,13 @@ DEMOCRATIC_PATTERNS = [
     'harris', 'walz', 'biden', 'obama', 'kerry', 'gore',
     'james', 'natalie', 'clinton', 'hillary', 'pryor', 'berry',
     'snyder', 'ross', 'fisher', 'sheffield', 'daniels', 'wingfield',
-    'wood', 'wilcox'
+    'wood', 'wilcox', 'jones', 'chris jones'
 ]
 
 REPUBLICAN_PATTERNS = [
     'trump', 'vance', 'romney', 'mccain', 'bush', 
-    'boozman', 'john', 'hutchinson', 'cotton', 'robinson'
+    'boozman', 'john', 'hutchinson', 'cotton', 'robinson',
+    'sanders', 'huckabee'
 ]
 
 # Competitiveness categorization system
