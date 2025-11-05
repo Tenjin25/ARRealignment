@@ -26,12 +26,14 @@ for f in sorted(all_csv_files):
 # Known Democratic and Republican candidates for pattern matching
 DEMOCRATIC_PATTERNS = [
     'harris', 'walz', 'biden', 'obama', 'kerry', 'gore',
-    'james', 'natalie', 'clinton', 'hillary'
+    'james', 'natalie', 'clinton', 'hillary', 'pryor', 'berry',
+    'snyder', 'ross', 'fisher', 'sheffield', 'daniels', 'wingfield',
+    'wood', 'wilcox'
 ]
 
 REPUBLICAN_PATTERNS = [
     'trump', 'vance', 'romney', 'mccain', 'bush', 
-    'boozman', 'john', 'hutchinson', 'cotton'
+    'boozman', 'john', 'hutchinson', 'cotton', 'robinson'
 ]
 
 # Competitiveness categorization system
@@ -133,8 +135,17 @@ def calculate_competitiveness(dem_votes, rep_votes):
         'rep_pct': round(rep_pct, 2)
     }
 
-def identify_party(candidate_name, contest_type=''):
-    """Identify party based on candidate name"""
+def identify_party(candidate_name, party_info=''):
+    """Identify party based on party column or candidate name"""
+    # First check if we have explicit party information
+    if party_info and not pd.isna(party_info) and str(party_info).lower() != 'nan':
+        party_lower = str(party_info).lower()
+        if 'dem' in party_lower or 'democrat' in party_lower:
+            return 'dem'
+        elif 'rep' in party_lower or 'republican' in party_lower or 'gop' in party_lower:
+            return 'rep'
+    
+    # Fall back to candidate name matching
     if pd.isna(candidate_name):
         return 'other'
     
@@ -225,12 +236,19 @@ def normalize_candidate_name(candidate_str):
         'Secretary ', 'Commissioner ',
         'Attorney General ', 'AG ',
         'Lieutenant Governor ', 'Lt. Governor ', 'Lt Governor ',
-        'Treasurer ', 'Auditor '
+        'Treasurer ', 'Auditor ',
+        'County Clerk ', 'State Treasurer ', 'Land Commissioner ',
+        'Auditor of State ', 'State Auditor ',
+        'County Judge ', 'Circuit Judge ', 'Judge ',
+        'Mayor ', 'Councilman ', 'Councilwoman ',
+        'State Representative ', 'State Senator ',
+        'Former ', 'Current '
     ]
     
     for title in titles_to_remove:
         if name.startswith(title):
             name = name[len(title):].strip()
+            break  # Only remove the first matching title
     
     return name
 
@@ -249,7 +267,7 @@ def process_csv_file(csv_path, location_to_county):
         has_county = 'county' in df.columns
         
         if not has_contest_name and not has_office:
-            print(f"  ⚠️ Skipping - no contest/office column")
+            print(f"  [SKIP] No contest/office column")
             return None
         
         results = {}
@@ -328,11 +346,20 @@ def process_csv_file(csv_path, location_to_county):
             office_col = 'office' if 'office' in df.columns else None
             candidate_col = 'candidate' if 'candidate' in df.columns else None
             party_col = 'party' if 'party' in df.columns else ''
-            county_col = 'county' if 'county' in df.columns else None
+            # For county-level data, we need to check which column has county names
+            # In 2002, county-level rows have NaN in 'county' but have county names in 'jurisdiction'
+            if 'reporting_level' in df.columns:
+                county_level_df = df[df['reporting_level'] == 'county']
+                if len(county_level_df) > 0 and county_level_df['county'].isna().all() and 'jurisdiction' in df.columns:
+                    county_col = 'jurisdiction'
+                else:
+                    county_col = 'county' if 'county' in df.columns else None
+            else:
+                county_col = 'county' if 'county' in df.columns else None
             votes_col = 'votes' if 'votes' in df.columns else None
             
             if not all([office_col, candidate_col, county_col, votes_col]):
-                print(f"  ⚠️ Missing required columns")
+                print(f"  [SKIP] Missing required columns")
                 return None
             
             # Get unique offices
@@ -360,13 +387,19 @@ def process_csv_file(csv_path, location_to_county):
                     'results': {}
                 }
                 
+                # Filter to only county-level results first (not precinct level)
+                county_level_data = office_data.copy()
+                if 'reporting_level' in county_level_data.columns:
+                    county_level_data = county_level_data[county_level_data['reporting_level'] == 'county']
+                
                 # Process by county
-                for county_raw in office_data[county_col].unique():
+                for county_raw in county_level_data[county_col].unique():
                     county_norm = normalize_county_name(county_raw)
                     if not county_norm:
                         continue
                     
-                    county_data = office_data[office_data[county_col] == county_raw]
+                    # Get data for this specific county
+                    county_data = county_level_data[county_level_data[county_col] == county_raw]
                     
                     county_result = {
                         'total_votes': 0,
@@ -390,7 +423,7 @@ def process_csv_file(csv_path, location_to_county):
                         else:
                             votes = 0
                         
-                        party_val = row[party_col] if party_col and party_col in row else ''
+                        party_val = row[party_col] if party_col else ''
                         
                         county_result['total_votes'] += votes
                         
@@ -416,7 +449,7 @@ def process_csv_file(csv_path, location_to_county):
         return results
         
     except Exception as e:
-        print(f"  ❌ Error processing {csv_path.name}: {e}")
+        print(f"  [ERROR] processing {csv_path.name}: {e}")
         return None
 
 # Build results by year
@@ -426,7 +459,7 @@ for csv_file in sorted(all_csv_files):
     year = extract_year_from_filename(csv_file)
     
     if not year:
-        print(f"⚠️ Could not extract year from {csv_file.name}")
+        print(f"[WARN] Could not extract year from {csv_file.name}")
         continue
     
     if year not in results_by_year:
@@ -450,9 +483,156 @@ for csv_file in sorted(all_csv_files):
                         if county not in results_by_year[year][category][contest_key]['results']:
                             results_by_year[year][category][contest_key]['results'][county] = county_data
 
-# Create final JSON structure
+# Filter out contests with no Democratic candidate or no major party competition
+def filter_contested_races(results_by_year):
+    """Remove contests where there's no Dem candidate or both parties are missing"""
+    filtered_results = {}
+    
+    for year, categories in results_by_year.items():
+        filtered_results[year] = {}
+        
+        for category, contests in categories.items():
+            filtered_results[year][category] = {}
+            
+            for contest_key, contest_data in contests.items():
+                # Check if any county has a Democratic candidate
+                has_dem_candidate = False
+                has_rep_candidate = False
+                
+                for county, county_data in contest_data['results'].items():
+                    if county_data.get('dem_candidate'):
+                        has_dem_candidate = True
+                    if county_data.get('rep_candidate'):
+                        has_rep_candidate = True
+                    
+                    if has_dem_candidate and has_rep_candidate:
+                        break
+                
+                # Include contest only if there's a Dem candidate AND at least one major party
+                if has_dem_candidate and (has_dem_candidate or has_rep_candidate):
+                    filtered_results[year][category][contest_key] = contest_data
+            
+            # Remove empty categories
+            if not filtered_results[year][category]:
+                del filtered_results[year][category]
+        
+        # Remove empty years
+        if not filtered_results[year]:
+            del filtered_results[year]
+    
+    return filtered_results
+
+# Apply filtering
+print("\nFiltering out uncontested races...")
+results_by_year = filter_contested_races(results_by_year)
+
+# Restructure data to match the new format
+def restructure_to_new_format(results_by_year):
+    """Convert to the new nested JSON format"""
+    restructured = {}
+    
+    for year, categories in results_by_year.items():
+        restructured[year] = {}
+        
+        for category, contests in categories.items():
+            restructured[year][category] = {}
+            
+            for contest_key, contest_data in contests.items():
+                restructured_contest = {
+                    'contest_name': contest_data['contest_name'],
+                    'results': {}
+                }
+                
+                # Restructure each county's data
+                for county_name, county_data in contest_data['results'].items():
+                    # Get competitiveness info
+                    margin = county_data.get('margin', 0)
+                    category_name = county_data.get('category', 'Unknown')
+                    color = county_data.get('color', '#cccccc')
+                    winner = county_data.get('winner')
+                    
+                    # Determine party for competitiveness
+                    comp_party = None
+                    comp_code = category_name.upper().replace(' ', '_')
+                    if winner == 'Republican':
+                        comp_party = 'Republican'
+                        comp_code = f"R_{category_name.upper().replace(' REPUBLICAN', '')}"
+                    elif winner == 'Democratic':
+                        comp_party = 'Democratic'
+                        comp_code = f"D_{category_name.upper().replace(' DEMOCRATIC', '')}"
+                    
+                    restructured_contest['results'][county_name] = {
+                        'county': county_name,
+                        'contest': contest_data['contest_name'],
+                        'year': year,
+                        'dem_candidate': county_data.get('dem_candidate'),
+                        'rep_candidate': county_data.get('rep_candidate'),
+                        'dem_votes': county_data.get('dem_votes', 0),
+                        'rep_votes': county_data.get('rep_votes', 0),
+                        'other_votes': county_data.get('other_votes', 0),
+                        'total_votes': county_data.get('total_votes', 0),
+                        'two_party_total': county_data.get('dem_votes', 0) + county_data.get('rep_votes', 0),
+                        'margin': abs(county_data.get('dem_votes', 0) - county_data.get('rep_votes', 0)),
+                        'margin_pct': round(margin, 2),  # Format to 2 decimal places like Ballotpedia
+                        'winner': 'REP' if winner == 'Republican' else 'DEM' if winner == 'Democratic' else 'NONE',
+                        'competitiveness': {
+                            'category': category_name.replace(' Republican', '').replace(' Democratic', ''),
+                            'party': comp_party,
+                            'code': comp_code,
+                            'color': color
+                        }
+                    }
+                
+                restructured[year][category][contest_key] = restructured_contest
+    
+    return restructured
+
+print("\nRestructuring data format...")
+restructured_data = restructure_to_new_format(results_by_year)
+
+# Create final JSON structure with metadata
 output = {
-    'results_by_year': results_by_year
+    'metadata': {
+        'state': 'Arkansas',
+        'state_abbreviation': 'AR',
+        'source': 'OpenElections Project & Arkansas Secretary of State',
+        'years_included': sorted(list(restructured_data.keys())),
+        'focus': 'Clean geographic political patterns',
+        'processed_date': '2025-01-07',
+        'categorization_system': {
+            'competitiveness_scale': {
+                'Republican': [
+                    {'category': 'Annihilation', 'range': 'R+40%+', 'color': '#67000d'},
+                    {'category': 'Dominant', 'range': 'R+30-40%', 'color': '#a50f15'},
+                    {'category': 'Stronghold', 'range': 'R+20-30%', 'color': '#cb181d'},
+                    {'category': 'Safe', 'range': 'R+10-20%', 'color': '#ef3b2c'},
+                    {'category': 'Likely', 'range': 'R+5.5-10%', 'color': '#fb6a4a'},
+                    {'category': 'Lean', 'range': 'R+1-5.5%', 'color': '#fcae91'},
+                    {'category': 'Tilt', 'range': 'R+0.5-1%', 'color': '#fee8c8'}
+                ],
+                'Tossup': [
+                    {'category': 'Tossup', 'range': '±0.5%', 'color': '#f7f7f7'}
+                ],
+                'Democratic': [
+                    {'category': 'Tilt', 'range': 'D+0.5-1%', 'color': '#e1f5fe'},
+                    {'category': 'Lean', 'range': 'D+1-5.5%', 'color': '#c6dbef'},
+                    {'category': 'Likely', 'range': 'D+5.5-10%', 'color': '#9ecae1'},
+                    {'category': 'Safe', 'range': 'D+10-20%', 'color': '#6baed6'},
+                    {'category': 'Stronghold', 'range': 'D+20-30%', 'color': '#3182bd'},
+                    {'category': 'Dominant', 'range': 'D+30-40%', 'color': '#08519c'},
+                    {'category': 'Annihilation', 'range': 'D+40%+', 'color': '#08306b'}
+                ]
+            },
+            'office_types': ['presidential', 'us_senate', 'governor', 'lt_governor', 'statewide'],
+            'enhanced_features': [
+                'Competitiveness categorization for each county',
+                'Contest type classification (presidential/statewide/etc)',
+                'Color coding compatible with political geography visualization',
+                'Candidate name normalization'
+            ]
+        }
+    },
+    'results_by_year': restructured_data
 }
 
 # Save to JSON file
@@ -460,7 +640,7 @@ output_path = 'Data/arkansas_county_election_results.json'
 with open(output_path, 'w') as f:
     json.dump(output, f, indent=2)
 
-print(f"\n✅ Successfully created {output_path}")
+print(f"\n[SUCCESS] Created {output_path}")
 print(f"\nTotal years: {len(results_by_year)}")
 for year in sorted(results_by_year.keys()):
     categories = results_by_year[year]

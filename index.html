@@ -913,7 +913,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const CONFIG = {
       mapboxToken: 'pk.eyJ1Ijoic2hhbWFyZGF2aXMiLCJhIjoiY21kcW8yeDB2MDhvbTJzb29qeGp1aDZmZCJ9.Zw_i6U-dL7_bEKRHTUh7yg',
       paths: {
-        counties: './Data/arkansas_counties.geojson',
+        counties: './Data/tl_2020_05_county20.geojson',
         electionResults: './Data/arkansas_county_election_results.json',
         countyLookup: './Data/county_lookup.csv'
       },
@@ -1214,6 +1214,15 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
               'GREENSBORO AUDITORIUM BONDS'
             ];
             if (contestName && unwantedContests.some(unwanted => contestName.toString().toUpperCase().includes(unwanted))) return;
+            
+            // Filter out unopposed races (missing either Democratic or Republican candidate)
+            const demCandidate = contest && contest.dem_candidate;
+            const repCandidate = contest && contest.rep_candidate;
+            if (!demCandidate || !repCandidate) {
+              console.log(`Skipping unopposed race: ${contestName} (${year}) - D: ${demCandidate}, R: ${repCandidate}`);
+              return;
+            }
+            
             if (!groupedByOffice[officeLabel]) groupedByOffice[officeLabel] = [];
             groupedByOffice[officeLabel].push({ year, cat, contestKey, contestName });
             // For Council of State and Judicial, show all contests
