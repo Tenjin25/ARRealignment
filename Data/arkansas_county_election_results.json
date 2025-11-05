@@ -36498,6 +36498,32 @@
             }
           }
         },
+        "nc_treasurer": {
+          "contest_name": "NC TREASURER",
+          "results": {
+            "NEWTON": {
+              "county": "NEWTON",
+              "contest": "NC TREASURER",
+              "year": "2014",
+              "dem_candidate": "PAM CLAYBORN",
+              "rep_candidate": "VICKIE BARTHOLOMEW",
+              "dem_votes": 594,
+              "rep_votes": 1640,
+              "other_votes": 748,
+              "total_votes": 2982,
+              "two_party_total": 2234,
+              "margin": 1046,
+              "margin_pct": 46.82,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            }
+          }
+        },
         "phillips_county_treasurer": {
           "contest_name": "PHILLIPS COUNTY TREASURER",
           "results": {
@@ -49180,7 +49206,7 @@
               "contest": "Secretary of State",
               "year": "2018",
               "dem_candidate": "Susan Inman",
-              "rep_candidate": "of State Lands John Thurston",
+              "rep_candidate": "John Thurston",
               "dem_votes": 4235,
               "rep_votes": 7622,
               "other_votes": 337,
@@ -51048,7 +51074,7 @@
               "contest": "Treasurer",
               "year": "2018",
               "dem_candidate": "Carl Hanson",
-              "rep_candidate": "Larry C. Davis",
+              "rep_candidate": "Treasurer Larry C. Davis",
               "dem_votes": 10779,
               "rep_votes": 30092,
               "other_votes": 0,
@@ -52933,6 +52959,32 @@
             }
           }
         },
+        "city_clerk_treasurer_quitman": {
+          "contest_name": "City Clerk Treasurer Quitman",
+          "results": {
+            "FAULKNER": {
+              "county": "FAULKNER",
+              "contest": "City Clerk Treasurer Quitman",
+              "year": "2020",
+              "dem_candidate": "Pamela Bennett",
+              "rep_candidate": null,
+              "dem_votes": 14,
+              "rep_votes": 0,
+              "other_votes": 0,
+              "total_votes": 14,
+              "two_party_total": 14,
+              "margin": 14,
+              "margin_pct": 100.0,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Democratic",
+                "code": "D_ANNIHILATION",
+                "color": "#08306b"
+              }
+            }
+          }
+        },
         "recorder/treasurer_city_of_leslie": {
           "contest_name": "Recorder/Treasurer City of Leslie",
           "results": {
@@ -52974,6 +53026,32 @@
               "total_votes": 215,
               "two_party_total": 95,
               "margin": 95,
+              "margin_pct": 100.0,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Democratic",
+                "code": "D_ANNIHILATION",
+                "color": "#08306b"
+              }
+            }
+          }
+        },
+        "clerk/treasurer_city_of_caldwell": {
+          "contest_name": "Clerk/Treasurer City of Caldwell",
+          "results": {
+            "ST FRANCIS": {
+              "county": "ST FRANCIS",
+              "contest": "Clerk/Treasurer City of Caldwell",
+              "year": "2020",
+              "dem_candidate": "Pamela Speer",
+              "rep_candidate": null,
+              "dem_votes": 128,
+              "rep_votes": 0,
+              "other_votes": 0,
+              "total_votes": 128,
+              "two_party_total": 128,
+              "margin": 128,
               "margin_pct": 100.0,
               "winner": "DEM",
               "competitiveness": {
@@ -54734,6 +54812,1586 @@
                 "party": "Democratic",
                 "code": "D_ANNIHILATION",
                 "color": "#08306b"
+              }
+            }
+          }
+        },
+        "state_treasurer": {
+          "contest_name": "State Treasurer",
+          "results": {
+            "PULASKI": {
+              "county": "PULASKI",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 71643,
+              "rep_votes": 50596,
+              "other_votes": 0,
+              "total_votes": 122239,
+              "two_party_total": 122239,
+              "margin": 21047,
+              "margin_pct": 17.22,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Democratic",
+                "code": "D_SAFE",
+                "color": "#6baed6"
+              }
+            },
+            "ASHLEY": {
+              "county": "ASHLEY",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1247,
+              "rep_votes": 4894,
+              "other_votes": 0,
+              "total_votes": 6141,
+              "two_party_total": 6141,
+              "margin": 3647,
+              "margin_pct": 59.39,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "BAXTER": {
+              "county": "BAXTER",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2820,
+              "rep_votes": 4139,
+              "other_votes": 0,
+              "total_votes": 6959,
+              "two_party_total": 6959,
+              "margin": 1319,
+              "margin_pct": 18.95,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Republican",
+                "code": "R_SAFE",
+                "color": "#ef3b2c"
+              }
+            },
+            "BENTON": {
+              "county": "BENTON",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 4973,
+              "rep_votes": 17246,
+              "other_votes": 0,
+              "total_votes": 22219,
+              "two_party_total": 22219,
+              "margin": 12273,
+              "margin_pct": 55.24,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "BOONE": {
+              "county": "BOONE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 840,
+              "rep_votes": 3718,
+              "other_votes": 0,
+              "total_votes": 4558,
+              "two_party_total": 4558,
+              "margin": 2878,
+              "margin_pct": 63.14,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "BRADLEY": {
+              "county": "BRADLEY",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 785,
+              "rep_votes": 1655,
+              "other_votes": 0,
+              "total_votes": 2440,
+              "two_party_total": 2440,
+              "margin": 870,
+              "margin_pct": 35.66,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "CALHOUN": {
+              "county": "CALHOUN",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2490,
+              "rep_votes": 3577,
+              "other_votes": 0,
+              "total_votes": 6067,
+              "two_party_total": 6067,
+              "margin": 1087,
+              "margin_pct": 17.92,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Republican",
+                "code": "R_SAFE",
+                "color": "#ef3b2c"
+              }
+            },
+            "CARROLL": {
+              "county": "CARROLL",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 701,
+              "rep_votes": 1350,
+              "other_votes": 0,
+              "total_votes": 2051,
+              "two_party_total": 2051,
+              "margin": 649,
+              "margin_pct": 31.64,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "WASHINGTON": {
+              "county": "WASHINGTON",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 30265,
+              "rep_votes": 59672,
+              "other_votes": 0,
+              "total_votes": 89937,
+              "two_party_total": 89937,
+              "margin": 29407,
+              "margin_pct": 32.7,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "JEFFERSON": {
+              "county": "JEFFERSON",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 5199,
+              "rep_votes": 5408,
+              "other_votes": 0,
+              "total_votes": 10607,
+              "two_party_total": 10607,
+              "margin": 209,
+              "margin_pct": 1.97,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Lean",
+                "party": "Republican",
+                "code": "R_LEAN",
+                "color": "#fcae91"
+              }
+            },
+            "CLAY": {
+              "county": "CLAY",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 791,
+              "rep_votes": 3106,
+              "other_votes": 0,
+              "total_votes": 3897,
+              "two_party_total": 3897,
+              "margin": 2315,
+              "margin_pct": 59.4,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CLEBURNE": {
+              "county": "CLEBURNE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1127,
+              "rep_votes": 4815,
+              "other_votes": 0,
+              "total_votes": 5942,
+              "two_party_total": 5942,
+              "margin": 3688,
+              "margin_pct": 62.07,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CRITTENDEN": {
+              "county": "CRITTENDEN",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 9819,
+              "rep_votes": 7216,
+              "other_votes": 0,
+              "total_votes": 17035,
+              "two_party_total": 17035,
+              "margin": 2603,
+              "margin_pct": 15.28,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Democratic",
+                "code": "D_SAFE",
+                "color": "#6baed6"
+              }
+            },
+            "CHICOT": {
+              "county": "CHICOT",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 523,
+              "rep_votes": 3156,
+              "other_votes": 0,
+              "total_votes": 3679,
+              "two_party_total": 3679,
+              "margin": 2633,
+              "margin_pct": 71.57,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CONWAY": {
+              "county": "CONWAY",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1252,
+              "rep_votes": 3389,
+              "other_votes": 0,
+              "total_votes": 4641,
+              "two_party_total": 4641,
+              "margin": 2137,
+              "margin_pct": 46.05,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CRAIGHEAD": {
+              "county": "CRAIGHEAD",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1165,
+              "rep_votes": 3738,
+              "other_votes": 0,
+              "total_votes": 4903,
+              "two_party_total": 4903,
+              "margin": 2573,
+              "margin_pct": 52.48,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CRAWFORD": {
+              "county": "CRAWFORD",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 12922,
+              "rep_votes": 26962,
+              "other_votes": 0,
+              "total_votes": 39884,
+              "two_party_total": 39884,
+              "margin": 14040,
+              "margin_pct": 35.2,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "CROSS": {
+              "county": "CROSS",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 785,
+              "rep_votes": 1807,
+              "other_votes": 0,
+              "total_votes": 2592,
+              "two_party_total": 2592,
+              "margin": 1022,
+              "margin_pct": 39.43,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "CLEVELAND": {
+              "county": "CLEVELAND",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 321,
+              "rep_votes": 1254,
+              "other_votes": 0,
+              "total_votes": 1575,
+              "two_party_total": 1575,
+              "margin": 933,
+              "margin_pct": 59.24,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CLARK": {
+              "county": "CLARK",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 3049,
+              "rep_votes": 5422,
+              "other_votes": 0,
+              "total_votes": 8471,
+              "two_party_total": 8471,
+              "margin": 2373,
+              "margin_pct": 28.01,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Stronghold",
+                "party": "Republican",
+                "code": "R_STRONGHOLD",
+                "color": "#cb181d"
+              }
+            },
+            "DESHA": {
+              "county": "DESHA",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2188,
+              "rep_votes": 9284,
+              "other_votes": 0,
+              "total_votes": 11472,
+              "two_party_total": 11472,
+              "margin": 7096,
+              "margin_pct": 61.85,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "DREW": {
+              "county": "DREW",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 645,
+              "rep_votes": 1300,
+              "other_votes": 0,
+              "total_votes": 1945,
+              "two_party_total": 1945,
+              "margin": 655,
+              "margin_pct": 33.68,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "FAULKNER": {
+              "county": "FAULKNER",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1874,
+              "rep_votes": 4151,
+              "other_votes": 0,
+              "total_votes": 6025,
+              "two_party_total": 6025,
+              "margin": 2277,
+              "margin_pct": 37.79,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "FRANKLIN": {
+              "county": "FRANKLIN",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1328,
+              "rep_votes": 4103,
+              "other_votes": 0,
+              "total_votes": 5431,
+              "two_party_total": 5431,
+              "margin": 2775,
+              "margin_pct": 51.1,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "FULTON": {
+              "county": "FULTON",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1784,
+              "rep_votes": 1590,
+              "other_votes": 0,
+              "total_votes": 3374,
+              "two_party_total": 3374,
+              "margin": 194,
+              "margin_pct": 5.75,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Democratic",
+                "code": "D_LIKELY",
+                "color": "#9ecae1"
+              }
+            },
+            "GARLAND": {
+              "county": "GARLAND",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 408,
+              "rep_votes": 2366,
+              "other_votes": 0,
+              "total_votes": 2774,
+              "two_party_total": 2774,
+              "margin": 1958,
+              "margin_pct": 70.58,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "GRANT": {
+              "county": "GRANT",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1068,
+              "rep_votes": 4451,
+              "other_votes": 0,
+              "total_votes": 5519,
+              "two_party_total": 5519,
+              "margin": 3383,
+              "margin_pct": 61.3,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "GREENE": {
+              "county": "GREENE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 8474,
+              "rep_votes": 18920,
+              "other_votes": 0,
+              "total_votes": 27394,
+              "two_party_total": 27394,
+              "margin": 10446,
+              "margin_pct": 38.13,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "HEMPSTEAD": {
+              "county": "HEMPSTEAD",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 761,
+              "rep_votes": 3160,
+              "other_votes": 0,
+              "total_votes": 3921,
+              "two_party_total": 3921,
+              "margin": 2399,
+              "margin_pct": 61.18,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "HOT SPRING": {
+              "county": "HOT SPRING",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1817,
+              "rep_votes": 3397,
+              "other_votes": 0,
+              "total_votes": 5214,
+              "two_party_total": 5214,
+              "margin": 1580,
+              "margin_pct": 30.3,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "HOWARD": {
+              "county": "HOWARD",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2206,
+              "rep_votes": 4612,
+              "other_votes": 0,
+              "total_votes": 6818,
+              "two_party_total": 6818,
+              "margin": 2406,
+              "margin_pct": 35.29,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "INDEPENDENCE": {
+              "county": "INDEPENDENCE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 3035,
+              "rep_votes": 5936,
+              "other_votes": 0,
+              "total_votes": 8971,
+              "two_party_total": 8971,
+              "margin": 2901,
+              "margin_pct": 32.34,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "IZARD": {
+              "county": "IZARD",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2183,
+              "rep_votes": 10440,
+              "other_votes": 0,
+              "total_votes": 12623,
+              "two_party_total": 12623,
+              "margin": 8257,
+              "margin_pct": 65.41,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "JACKSON": {
+              "county": "JACKSON",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1029,
+              "rep_votes": 4222,
+              "other_votes": 0,
+              "total_votes": 5251,
+              "two_party_total": 5251,
+              "margin": 3193,
+              "margin_pct": 60.81,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "JOHNSON": {
+              "county": "JOHNSON",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 938,
+              "rep_votes": 2682,
+              "other_votes": 0,
+              "total_votes": 3620,
+              "two_party_total": 3620,
+              "margin": 1744,
+              "margin_pct": 48.18,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LAFAYETTE": {
+              "county": "LAFAYETTE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 3548,
+              "rep_votes": 8011,
+              "other_votes": 0,
+              "total_votes": 11559,
+              "two_party_total": 11559,
+              "margin": 4463,
+              "margin_pct": 38.61,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "LAWRENCE": {
+              "county": "LAWRENCE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 10172,
+              "rep_votes": 23478,
+              "other_votes": 0,
+              "total_votes": 33650,
+              "two_party_total": 33650,
+              "margin": 13306,
+              "margin_pct": 39.54,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "LEE": {
+              "county": "LEE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 584,
+              "rep_votes": 2552,
+              "other_votes": 0,
+              "total_votes": 3136,
+              "two_party_total": 3136,
+              "margin": 1968,
+              "margin_pct": 62.76,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LINCOLN": {
+              "county": "LINCOLN",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1026,
+              "rep_votes": 5815,
+              "other_votes": 0,
+              "total_votes": 6841,
+              "two_party_total": 6841,
+              "margin": 4789,
+              "margin_pct": 70.0,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LITTLE RIVER": {
+              "county": "LITTLE RIVER",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 404,
+              "rep_votes": 2499,
+              "other_votes": 0,
+              "total_votes": 2903,
+              "two_party_total": 2903,
+              "margin": 2095,
+              "margin_pct": 72.17,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LOGAN": {
+              "county": "LOGAN",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 663,
+              "rep_votes": 2947,
+              "other_votes": 0,
+              "total_votes": 3610,
+              "two_party_total": 3610,
+              "margin": 2284,
+              "margin_pct": 63.27,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LONOKE": {
+              "county": "LONOKE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 859,
+              "rep_votes": 2908,
+              "other_votes": 0,
+              "total_votes": 3767,
+              "two_party_total": 3767,
+              "margin": 2049,
+              "margin_pct": 54.39,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MADISON": {
+              "county": "MADISON",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2559,
+              "rep_votes": 8634,
+              "other_votes": 0,
+              "total_votes": 11193,
+              "two_party_total": 11193,
+              "margin": 6075,
+              "margin_pct": 54.27,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MARION": {
+              "county": "MARION",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1060,
+              "rep_votes": 3917,
+              "other_votes": 0,
+              "total_votes": 4977,
+              "two_party_total": 4977,
+              "margin": 2857,
+              "margin_pct": 57.4,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MILLER": {
+              "county": "MILLER",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 3987,
+              "rep_votes": 13328,
+              "other_votes": 0,
+              "total_votes": 17315,
+              "two_party_total": 17315,
+              "margin": 9341,
+              "margin_pct": 53.95,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MISSISSIPPI": {
+              "county": "MISSISSIPPI",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 32448,
+              "rep_votes": 37251,
+              "other_votes": 0,
+              "total_votes": 69699,
+              "two_party_total": 69699,
+              "margin": 4803,
+              "margin_pct": 6.89,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Republican",
+                "code": "R_LIKELY",
+                "color": "#fb6a4a"
+              }
+            },
+            "MONROE": {
+              "county": "MONROE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 3563,
+              "rep_votes": 13932,
+              "other_votes": 0,
+              "total_votes": 17495,
+              "two_party_total": 17495,
+              "margin": 10369,
+              "margin_pct": 59.27,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MONTGOMERY": {
+              "county": "MONTGOMERY",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 813,
+              "rep_votes": 3737,
+              "other_votes": 0,
+              "total_votes": 4550,
+              "two_party_total": 4550,
+              "margin": 2924,
+              "margin_pct": 64.26,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "NEVADA": {
+              "county": "NEVADA",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 3301,
+              "rep_votes": 12191,
+              "other_votes": 0,
+              "total_votes": 15492,
+              "two_party_total": 15492,
+              "margin": 8890,
+              "margin_pct": 57.38,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "NEWTON": {
+              "county": "NEWTON",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 463,
+              "rep_votes": 2589,
+              "other_votes": 0,
+              "total_votes": 3052,
+              "two_party_total": 3052,
+              "margin": 2126,
+              "margin_pct": 69.66,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "OUACHITA": {
+              "county": "OUACHITA",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1052,
+              "rep_votes": 4927,
+              "other_votes": 0,
+              "total_votes": 5979,
+              "two_party_total": 5979,
+              "margin": 3875,
+              "margin_pct": 64.81,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "PERRY": {
+              "county": "PERRY",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2490,
+              "rep_votes": 2537,
+              "other_votes": 0,
+              "total_votes": 5027,
+              "two_party_total": 5027,
+              "margin": 47,
+              "margin_pct": 0.93,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Tilt",
+                "party": "Republican",
+                "code": "R_TILT",
+                "color": "#fee8c8"
+              }
+            },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1009,
+              "rep_votes": 969,
+              "other_votes": 0,
+              "total_votes": 1978,
+              "two_party_total": 1978,
+              "margin": 40,
+              "margin_pct": 2.02,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Lean",
+                "party": "Democratic",
+                "code": "D_LEAN",
+                "color": "#c6dbef"
+              }
+            },
+            "PIKE": {
+              "county": "PIKE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 704,
+              "rep_votes": 1358,
+              "other_votes": 0,
+              "total_votes": 2062,
+              "two_party_total": 2062,
+              "margin": 654,
+              "margin_pct": 31.72,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "POINSETT": {
+              "county": "POINSETT",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 935,
+              "rep_votes": 1247,
+              "other_votes": 0,
+              "total_votes": 2182,
+              "two_party_total": 2182,
+              "margin": 312,
+              "margin_pct": 14.3,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Republican",
+                "code": "R_SAFE",
+                "color": "#ef3b2c"
+              }
+            },
+            "POLK": {
+              "county": "POLK",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2251,
+              "rep_votes": 1921,
+              "other_votes": 0,
+              "total_votes": 4172,
+              "two_party_total": 4172,
+              "margin": 330,
+              "margin_pct": 7.91,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Democratic",
+                "code": "D_LIKELY",
+                "color": "#9ecae1"
+              }
+            },
+            "POPE": {
+              "county": "POPE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1182,
+              "rep_votes": 3246,
+              "other_votes": 0,
+              "total_votes": 4428,
+              "two_party_total": 4428,
+              "margin": 2064,
+              "margin_pct": 46.61,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "PRAIRIE": {
+              "county": "PRAIRIE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 444,
+              "rep_votes": 2205,
+              "other_votes": 0,
+              "total_votes": 2649,
+              "two_party_total": 2649,
+              "margin": 1761,
+              "margin_pct": 66.48,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "ARKANSAS": {
+              "county": "ARKANSAS",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 971,
+              "rep_votes": 5274,
+              "other_votes": 0,
+              "total_votes": 6245,
+              "two_party_total": 6245,
+              "margin": 4303,
+              "margin_pct": 68.9,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "COLUMBIA": {
+              "county": "COLUMBIA",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1370,
+              "rep_votes": 1572,
+              "other_votes": 0,
+              "total_votes": 2942,
+              "two_party_total": 2942,
+              "margin": 202,
+              "margin_pct": 6.87,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Republican",
+                "code": "R_LIKELY",
+                "color": "#fb6a4a"
+              }
+            },
+            "RANDOLPH": {
+              "county": "RANDOLPH",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 688,
+              "rep_votes": 2041,
+              "other_votes": 0,
+              "total_votes": 2729,
+              "two_party_total": 2729,
+              "margin": 1353,
+              "margin_pct": 49.58,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SALINE": {
+              "county": "SALINE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2156,
+              "rep_votes": 8240,
+              "other_votes": 0,
+              "total_votes": 10396,
+              "two_party_total": 10396,
+              "margin": 6084,
+              "margin_pct": 58.52,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SCOTT": {
+              "county": "SCOTT",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1514,
+              "rep_votes": 8457,
+              "other_votes": 0,
+              "total_votes": 9971,
+              "two_party_total": 9971,
+              "margin": 6943,
+              "margin_pct": 69.63,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SEARCY": {
+              "county": "SEARCY",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1064,
+              "rep_votes": 2941,
+              "other_votes": 0,
+              "total_votes": 4005,
+              "two_party_total": 4005,
+              "margin": 1877,
+              "margin_pct": 46.87,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SEBASTIAN": {
+              "county": "SEBASTIAN",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 4478,
+              "rep_votes": 19532,
+              "other_votes": 0,
+              "total_votes": 24010,
+              "two_party_total": 24010,
+              "margin": 15054,
+              "margin_pct": 62.7,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SEVIER": {
+              "county": "SEVIER",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1200,
+              "rep_votes": 5029,
+              "other_votes": 0,
+              "total_votes": 6229,
+              "two_party_total": 6229,
+              "margin": 3829,
+              "margin_pct": 61.47,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SHARP": {
+              "county": "SHARP",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 942,
+              "rep_votes": 4276,
+              "other_votes": 0,
+              "total_votes": 5218,
+              "two_party_total": 5218,
+              "margin": 3334,
+              "margin_pct": 63.89,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "STONE": {
+              "county": "STONE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 11699,
+              "rep_votes": 31093,
+              "other_votes": 0,
+              "total_votes": 42792,
+              "two_party_total": 42792,
+              "margin": 19394,
+              "margin_pct": 45.32,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "ST. FRANCIS": {
+              "county": "ST. FRANCIS",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 820,
+              "rep_votes": 2922,
+              "other_votes": 0,
+              "total_votes": 3742,
+              "two_party_total": 3742,
+              "margin": 2102,
+              "margin_pct": 56.17,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "UNION": {
+              "county": "UNION",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 560,
+              "rep_votes": 2469,
+              "other_votes": 0,
+              "total_votes": 3029,
+              "two_party_total": 3029,
+              "margin": 1909,
+              "margin_pct": 63.02,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "VAN BUREN": {
+              "county": "VAN BUREN",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1084,
+              "rep_votes": 4234,
+              "other_votes": 0,
+              "total_votes": 5318,
+              "two_party_total": 5318,
+              "margin": 3150,
+              "margin_pct": 59.23,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "YELL": {
+              "county": "YELL",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1727,
+              "rep_votes": 5208,
+              "other_votes": 0,
+              "total_votes": 6935,
+              "two_party_total": 6935,
+              "margin": 3481,
+              "margin_pct": 50.19,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "WHITE": {
+              "county": "WHITE",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 1272,
+              "rep_votes": 4420,
+              "other_votes": 0,
+              "total_votes": 5692,
+              "two_party_total": 5692,
+              "margin": 3148,
+              "margin_pct": 55.31,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "WOODRUFF": {
+              "county": "WOODRUFF",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2352,
+              "rep_votes": 7359,
+              "other_votes": 0,
+              "total_votes": 9711,
+              "two_party_total": 9711,
+              "margin": 5007,
+              "margin_pct": 51.56,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "DALLAS": {
+              "county": "DALLAS",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 10116,
+              "rep_votes": 22581,
+              "other_votes": 0,
+              "total_votes": 32697,
+              "two_party_total": 32697,
+              "margin": 12465,
+              "margin_pct": 38.12,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
               }
             }
           }

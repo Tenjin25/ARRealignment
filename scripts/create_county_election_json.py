@@ -28,13 +28,13 @@ DEMOCRATIC_PATTERNS = [
     'harris', 'walz', 'biden', 'obama', 'kerry', 'gore',
     'james', 'natalie', 'clinton', 'hillary', 'pryor', 'berry',
     'snyder', 'ross', 'fisher', 'sheffield', 'daniels', 'wingfield',
-    'wood', 'wilcox', 'jones', 'chris jones'
+    'wood', 'wilcox', 'jones', 'chris jones', 'whitaker', 'pam'
 ]
 
 REPUBLICAN_PATTERNS = [
     'trump', 'vance', 'romney', 'mccain', 'bush', 
     'boozman', 'john', 'hutchinson', 'cotton', 'robinson',
-    'sanders', 'huckabee'
+    'sanders', 'huckabee', 'lowery', 'mark lowery'
 ]
 
 # Competitiveness categorization system
@@ -227,31 +227,14 @@ def normalize_candidate_name(candidate_str):
     
     name = str(candidate_str).strip()
     
-    # Remove common titles and prefixes (case-sensitive for proper nouns)
-    titles_to_remove = [
-        'Senator ', 'Sen. ', 'Sen ', 
-        'Congressman ', 'Congresswoman ',
-        'Representative ', 'Rep. ', 'Rep ',
-        'Governor ', 'Gov. ', 'Gov ',
-        'President ', 'Vice President ',
-        'Secretary ', 'Commissioner ',
-        'Attorney General ', 'AG ',
-        'Lieutenant Governor ', 'Lt. Governor ', 'Lt Governor ',
-        'Treasurer ', 'Auditor ',
-        'County Clerk ', 'State Treasurer ', 'Land Commissioner ',
-        'Auditor of State ', 'State Auditor ',
-        'County Judge ', 'Circuit Judge ', 'Judge ',
-        'Mayor ', 'Councilman ', 'Councilwoman ',
-        'State Representative ', 'State Senator ',
-        'Former ', 'Current '
-    ]
+    # Use regex for more efficient title removal
+    # Order matters: longer titles first to avoid partial matches
+    import re
+    pattern = r'^(State Treasurer|State Representative|State Senator|State Auditor|Lieutenant Governor|Lt\. Governor|Lt Governor|Attorney General|Vice President|Commissioner of State Lands|Land Commissioner|County Clerk|Circuit Judge|County Judge|Congressman|Congresswoman|Representative|Councilwoman|Councilman|Commissioner|Senator|President|Governor|Secretary|Auditor|Judge|Mayor|Former|Current|Sen\.|Sen|Rep\.|Rep|Gov\.|Gov|AG)\s+'
     
-    for title in titles_to_remove:
-        if name.startswith(title):
-            name = name[len(title):].strip()
-            break  # Only remove the first matching title
+    name = re.sub(pattern, '', name, count=1, flags=re.IGNORECASE)
     
-    return name
+    return name.strip()
 
 def process_csv_file(csv_path, location_to_county):
     """Process a single CSV file and return structured data"""
