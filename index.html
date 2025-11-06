@@ -1197,16 +1197,11 @@ function mergeGeoElectionData(boundaryGeoJSON, electionData, countyKey='County',
         function buildGranularContestDropdown() {
           const sel = document.getElementById('contestSelect');
           sel.innerHTML = '<option value="">Select a contest...</option>';
-          // Swap only NC Supreme Court and Court of Appeals order, keep all others in original order
-          const officeLabels = Object.keys(groupedByOffice);
-          const labels = officeLabels.slice();
-          const scIdx = labels.indexOf('NC Supreme Court');
-          const caIdx = labels.indexOf('Court of Appeals');
-          if (scIdx !== -1 && caIdx !== -1 && scIdx > caIdx) {
-            // If Supreme Court comes after Court of Appeals, swap them
-            [labels[scIdx], labels[caIdx]] = [labels[caIdx], labels[scIdx]];
-          }
-          labels.forEach(officeLabel => {
+          
+          // Use allowedOffices order to ensure President appears first
+          allowedOffices.forEach(officeLabel => {
+            if (!groupedByOffice[officeLabel]) return; // Skip if no contests for this office
+            
             const contests = groupedByOffice[officeLabel];
             const og = document.createElement('optgroup');
             og.label = officeLabel;
