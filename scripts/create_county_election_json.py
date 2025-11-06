@@ -17,13 +17,17 @@ data_path = Path('Data')
 for csv_file in data_path.rglob('*.csv'):
     # Skip the lookup file and other non-election files
     if 'lookup' not in csv_file.name.lower() and csv_file.stat().st_size > 0:
-        # SKIP 2022 and 2024 files - they use Location IDs without reliable county mapping
-        if '2022' in csv_file.name or '2024' in csv_file.name:
+        # SKIP 2024 files - they use Location IDs without reliable county mapping
+        # SKIP 2022 Location ID files (the ones in Data/ root), but ALLOW 2022/counties files
+        if '2024' in csv_file.name:
             print(f"  [SKIP] {csv_file.name} - Location ID mapping unreliable")
+            continue
+        if '2022' in csv_file.name and 'counties' not in str(csv_file.parent):
+            print(f"  [SKIP] {csv_file.name} - Location ID format (use counties/ instead)")
             continue
         all_csv_files.append(csv_file)
 
-print(f"\nFound {len(all_csv_files)} CSV files (excluded 2022/2024 Location ID files):")
+print(f"\nFound {len(all_csv_files)} CSV files (excluded 2024 Location ID files, using 2022 county precinct files):")
 for f in sorted(all_csv_files):
     print(f"  {f}")
 
