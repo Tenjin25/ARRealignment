@@ -17,9 +17,13 @@ data_path = Path('Data')
 for csv_file in data_path.rglob('*.csv'):
     # Skip the lookup file and other non-election files
     if 'lookup' not in csv_file.name.lower() and csv_file.stat().st_size > 0:
+        # SKIP 2022 and 2024 files - they use Location IDs without reliable county mapping
+        if '2022' in csv_file.name or '2024' in csv_file.name:
+            print(f"  [SKIP] {csv_file.name} - Location ID mapping unreliable")
+            continue
         all_csv_files.append(csv_file)
 
-print(f"\nFound {len(all_csv_files)} CSV files:")
+print(f"\nFound {len(all_csv_files)} CSV files (excluded 2022/2024 Location ID files):")
 for f in sorted(all_csv_files):
     print(f"  {f}")
 
@@ -168,6 +172,13 @@ def categorize_office(office_name):
     """Categorize office into appropriate bucket"""
     office_lower = str(office_name).lower()
     
+    # Skip local offices first
+    local_keywords = ['constable', 'alderman', 'city', 'ward', 'township', 'county clerk', 
+                      'county judge', 'circuit', 'prosecuting', 'justice of the peace',
+                      'coroner', 'assessor', 'collector', 'sheriff', 'recorder', 'surveyor']
+    if any(keyword in office_lower for keyword in local_keywords):
+        return None
+    
     # Presidential
     if 'president' in office_lower and 'vice' not in office_lower:
         return 'presidential'
@@ -188,14 +199,14 @@ def categorize_office(office_name):
     if 'lieutenant governor' in office_lower or 'lt governor' in office_lower or 'lt. governor' in office_lower:
         return 'lt_governor'
     
-    # State Treasurer only (not local treasurers like "McCrory Clerk/Treasurer")
+    # State Treasurer only (not local treasurers)
     if 'state treasurer' in office_lower:
         return 'statewide'
     
-    # Other statewide offices (excluding generic "treasurer" to avoid local positions)
+    # Other statewide offices - be specific to avoid local positions
     if any(word in office_lower for word in [
         'attorney general', 'secretary of state', 'state auditor',
-        'auditor', 'commissioner', 'land', 'superintendent'
+        'auditor of state', 'commissioner of state lands', 'land commissioner'
     ]):
         return 'statewide'
     
