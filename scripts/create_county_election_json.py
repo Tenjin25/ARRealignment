@@ -71,7 +71,7 @@ DEMOCRATIC_PATTERNS = [
 
 REPUBLICAN_PATTERNS = [
     'trump', 'vance', 'romney', 'mccain', 'bush', 
-    'boozman', 'john', 'hutchinson', 'cotton', 'robinson',
+    'boozman', 'john boozman', 'hutchinson', 'cotton', 'robinson',
     'sanders', 'huckabee', 'lowery', 'mark lowery',
     'asa', 'asa hutchinson', 'holt', 'jim holt', 'delay', 'gunner delay'
 ]
@@ -88,7 +88,7 @@ CATEGORIZATION_SYSTEM = {
         {"category": "Tilt", "min": 0.5, "max": 1, "color": "#fee8c8"}
     ],
     "Tossup": [
-        {"category": "Tossup", "min": -0.5, "max": 0.5, "color": "#f7f7f7"}
+        {"category": "Tossup", "min": -0.5, "max": 0.5, "color": "#ffffff"}
     ],
     "Democratic": [
         {"category": "Tilt", "min": 0.5, "max": 1, "color": "#e1f5fe"},
@@ -214,9 +214,11 @@ def categorize_office(office_name):
     if any(keyword in office_lower for keyword in local_keywords):
         return None
     
-    # Presidential
-    if 'president' in office_lower and 'vice' not in office_lower:
-        return 'presidential'
+    # Presidential (matches "President", "U.S. President", "President & Vice President", etc.)
+    if 'president' in office_lower and not any(word in office_lower for word in ['vice president only', 'for vice president']):
+        # Allow "President & Vice President" or "President and Vice President" but not standalone "Vice President"
+        if 'vice' not in office_lower or ('president' in office_lower and office_lower.index('president') < office_lower.index('vice')):
+            return 'presidential'
     
     # US Senate
     if 'senate' in office_lower and ('u.s.' in office_lower or 'united states' in office_lower):
