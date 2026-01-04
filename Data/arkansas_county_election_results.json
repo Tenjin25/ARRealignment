@@ -12,7 +12,8 @@
       "2016",
       "2018",
       "2020",
-      "2022"
+      "2022",
+      "2024"
     ],
     "focus": "Clean geographic political patterns",
     "processed_date": "2025-01-07",
@@ -53199,6 +53200,27 @@
                 "color": "#67000d"
               }
             },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "U.S. Senate",
+              "year": "2022",
+              "dem_candidate": "Natalie James",
+              "rep_candidate": "John Boozman",
+              "dem_votes": 2281,
+              "rep_votes": 1929,
+              "other_votes": 66,
+              "total_votes": 4276,
+              "two_party_total": 4210,
+              "margin": 352,
+              "margin_pct": 8.36,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Democratic",
+                "code": "D_LIKELY",
+                "color": "#9ecae1"
+              }
+            },
             "PIKE": {
               "county": "PIKE",
               "contest": "U.S. Senate",
@@ -54760,6 +54782,27 @@
                 "color": "#67000d"
               }
             },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "Attorney General",
+              "year": "2022",
+              "dem_candidate": "Jesse Gibson",
+              "rep_candidate": "Tim Griffin",
+              "dem_votes": 2271,
+              "rep_votes": 1948,
+              "other_votes": 0,
+              "total_votes": 4219,
+              "two_party_total": 4219,
+              "margin": 323,
+              "margin_pct": 7.66,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Democratic",
+                "code": "D_LIKELY",
+                "color": "#9ecae1"
+              }
+            },
             "PIKE": {
               "county": "PIKE",
               "contest": "Attorney General",
@@ -56317,6 +56360,27 @@
                 "party": "Republican",
                 "code": "R_ANNIHILATION",
                 "color": "#67000d"
+              }
+            },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "Auditor of State",
+              "year": "2022",
+              "dem_candidate": "Diamond Arnold-Johnson",
+              "rep_candidate": "Treasurer of State Dennis Milligan",
+              "dem_votes": 2194,
+              "rep_votes": 1849,
+              "other_votes": 88,
+              "total_votes": 4131,
+              "two_party_total": 4043,
+              "margin": 345,
+              "margin_pct": 8.53,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Democratic",
+                "code": "D_LIKELY",
+                "color": "#9ecae1"
               }
             },
             "PIKE": {
@@ -57878,6 +57942,27 @@
                 "color": "#67000d"
               }
             },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "Commissioner of State Lands",
+              "year": "2022",
+              "dem_candidate": "Darlene Goldi Gaines",
+              "rep_candidate": "Tommy Land Commissioner of State Lands",
+              "dem_votes": 2199,
+              "rep_votes": 1914,
+              "other_votes": 0,
+              "total_votes": 4113,
+              "two_party_total": 4113,
+              "margin": 285,
+              "margin_pct": 6.93,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Democratic",
+                "code": "D_LIKELY",
+                "color": "#9ecae1"
+              }
+            },
             "PIKE": {
               "county": "PIKE",
               "contest": "Commissioner of State Lands",
@@ -59437,6 +59522,27 @@
                 "color": "#67000d"
               }
             },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "Secretary of State",
+              "year": "2022",
+              "dem_candidate": "Anna Beth Gorman",
+              "rep_candidate": "of State John Thurston",
+              "dem_votes": 2279,
+              "rep_votes": 1939,
+              "other_votes": 0,
+              "total_votes": 4218,
+              "two_party_total": 4218,
+              "margin": 340,
+              "margin_pct": 8.06,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Democratic",
+                "code": "D_LIKELY",
+                "color": "#9ecae1"
+              }
+            },
             "PIKE": {
               "county": "PIKE",
               "contest": "Secretary of State",
@@ -60994,6 +61100,27 @@
                 "party": "Republican",
                 "code": "R_ANNIHILATION",
                 "color": "#67000d"
+              }
+            },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "State Treasurer",
+              "year": "2022",
+              "dem_candidate": "Pam Whitaker",
+              "rep_candidate": "Mark Lowery",
+              "dem_votes": 2251,
+              "rep_votes": 1921,
+              "other_votes": 0,
+              "total_votes": 4172,
+              "two_party_total": 4172,
+              "margin": 330,
+              "margin_pct": 7.91,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Democratic",
+                "code": "D_LIKELY",
+                "color": "#9ecae1"
               }
             },
             "PIKE": {
@@ -62557,6 +62684,27 @@
                 "color": "#67000d"
               }
             },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "Governor",
+              "year": "2022",
+              "dem_candidate": "Chris Jones",
+              "rep_candidate": "Sarah Huckabee Sanders",
+              "dem_votes": 2415,
+              "rep_votes": 1892,
+              "other_votes": 59,
+              "total_votes": 4366,
+              "two_party_total": 4307,
+              "margin": 523,
+              "margin_pct": 12.14,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Democratic",
+                "code": "D_SAFE",
+                "color": "#6baed6"
+              }
+            },
             "PIKE": {
               "county": "PIKE",
               "contest": "Governor",
@@ -64118,6 +64266,27 @@
                 "color": "#67000d"
               }
             },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "Lieutenant Governor",
+              "year": "2022",
+              "dem_candidate": "Kelly Ross Krout",
+              "rep_candidate": "Leslie Rutledge",
+              "dem_votes": 2207,
+              "rep_votes": 1892,
+              "other_votes": 113,
+              "total_votes": 4212,
+              "two_party_total": 4099,
+              "margin": 315,
+              "margin_pct": 7.68,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Democratic",
+                "code": "D_LIKELY",
+                "color": "#9ecae1"
+              }
+            },
             "PIKE": {
               "county": "PIKE",
               "contest": "Lieutenant Governor",
@@ -64557,6 +64726,3172 @@
                 "party": "Republican",
                 "code": "R_ANNIHILATION",
                 "color": "#67000d"
+              }
+            }
+          }
+        }
+      }
+    },
+    "2024": {
+      "presidential": {
+        "us_president": {
+          "contest_name": "US PRESIDENT",
+          "results": {
+            "JEFFERSON": {
+              "county": "JEFFERSON",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 12802,
+              "rep_votes": 8468,
+              "other_votes": 338,
+              "total_votes": 21608,
+              "two_party_total": 21270,
+              "margin": 4334,
+              "margin_pct": 20.38,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Stronghold",
+                "party": "Democratic",
+                "code": "D_STRONGHOLD",
+                "color": "#3182bd"
+              }
+            },
+            "BAXTER": {
+              "county": "BAXTER",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 4341,
+              "rep_votes": 16253,
+              "other_votes": 360,
+              "total_votes": 20954,
+              "two_party_total": 20594,
+              "margin": 11912,
+              "margin_pct": 57.84,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "HOWARD": {
+              "county": "HOWARD",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1158,
+              "rep_votes": 3246,
+              "other_votes": 69,
+              "total_votes": 4473,
+              "two_party_total": 4404,
+              "margin": 2088,
+              "margin_pct": 47.41,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CONWAY": {
+              "county": "CONWAY",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2449,
+              "rep_votes": 5893,
+              "other_votes": 199,
+              "total_votes": 8541,
+              "two_party_total": 8342,
+              "margin": 3444,
+              "margin_pct": 41.29,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "BRADLEY": {
+              "county": "BRADLEY",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 961,
+              "rep_votes": 2213,
+              "other_votes": 35,
+              "total_votes": 3209,
+              "two_party_total": 3174,
+              "margin": 1252,
+              "margin_pct": 39.45,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "ASHLEY": {
+              "county": "ASHLEY",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1774,
+              "rep_votes": 5145,
+              "other_votes": 111,
+              "total_votes": 7030,
+              "two_party_total": 6919,
+              "margin": 3371,
+              "margin_pct": 48.72,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CLARK": {
+              "county": "CLARK",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2959,
+              "rep_votes": 4526,
+              "other_votes": 172,
+              "total_votes": 7657,
+              "two_party_total": 7485,
+              "margin": 1567,
+              "margin_pct": 20.94,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Stronghold",
+                "party": "Republican",
+                "code": "R_STRONGHOLD",
+                "color": "#cb181d"
+              }
+            },
+            "DESHA": {
+              "county": "DESHA",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1638,
+              "rep_votes": 1805,
+              "other_votes": 62,
+              "total_votes": 3505,
+              "two_party_total": 3443,
+              "margin": 167,
+              "margin_pct": 4.85,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Lean",
+                "party": "Republican",
+                "code": "R_LEAN",
+                "color": "#fcae91"
+              }
+            },
+            "WHITE": {
+              "county": "WHITE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 5641,
+              "rep_votes": 24514,
+              "other_votes": 682,
+              "total_votes": 30837,
+              "two_party_total": 30155,
+              "margin": 18873,
+              "margin_pct": 62.59,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "YELL": {
+              "county": "YELL",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1213,
+              "rep_votes": 5147,
+              "other_votes": 117,
+              "total_votes": 6477,
+              "two_party_total": 6360,
+              "margin": 3934,
+              "margin_pct": 61.86,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "PIKE": {
+              "county": "PIKE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 560,
+              "rep_votes": 3746,
+              "other_votes": 52,
+              "total_votes": 4358,
+              "two_party_total": 4306,
+              "margin": 3186,
+              "margin_pct": 73.99,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MONTGOMERY": {
+              "county": "MONTGOMERY",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 645,
+              "rep_votes": 2987,
+              "other_votes": 75,
+              "total_votes": 3707,
+              "two_party_total": 3632,
+              "margin": 2342,
+              "margin_pct": 64.48,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "FAULKNER": {
+              "county": "FAULKNER",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 17752,
+              "rep_votes": 35357,
+              "other_votes": 1356,
+              "total_votes": 54465,
+              "two_party_total": 53109,
+              "margin": 17605,
+              "margin_pct": 33.15,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "MADISON": {
+              "county": "MADISON",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1491,
+              "rep_votes": 5885,
+              "other_votes": 125,
+              "total_votes": 7501,
+              "two_party_total": 7376,
+              "margin": 4394,
+              "margin_pct": 59.57,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LINCOLN": {
+              "county": "LINCOLN",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 813,
+              "rep_votes": 2502,
+              "other_votes": 57,
+              "total_votes": 3372,
+              "two_party_total": 3315,
+              "margin": 1689,
+              "margin_pct": 50.95,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "BENTON": {
+              "county": "BENTON",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 45150,
+              "rep_votes": 79798,
+              "other_votes": 3452,
+              "total_votes": 128400,
+              "two_party_total": 124948,
+              "margin": 34648,
+              "margin_pct": 27.73,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Stronghold",
+                "party": "Republican",
+                "code": "R_STRONGHOLD",
+                "color": "#cb181d"
+              }
+            },
+            "PULASKI": {
+              "county": "PULASKI",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 92038,
+              "rep_votes": 57977,
+              "other_votes": 3909,
+              "total_votes": 153924,
+              "two_party_total": 150015,
+              "margin": 34061,
+              "margin_pct": 22.71,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Stronghold",
+                "party": "Democratic",
+                "code": "D_STRONGHOLD",
+                "color": "#3182bd"
+              }
+            },
+            "LONOKE": {
+              "county": "LONOKE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 6790,
+              "rep_votes": 23225,
+              "other_votes": 605,
+              "total_votes": 30620,
+              "two_party_total": 30015,
+              "margin": 16435,
+              "margin_pct": 54.76,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LEE": {
+              "county": "LEE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1270,
+              "rep_votes": 1181,
+              "other_votes": 69,
+              "total_votes": 2520,
+              "two_party_total": 2451,
+              "margin": 89,
+              "margin_pct": 3.63,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Lean",
+                "party": "Democratic",
+                "code": "D_LEAN",
+                "color": "#c6dbef"
+              }
+            },
+            "CRAIGHEAD": {
+              "county": "CRAIGHEAD",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 11210,
+              "rep_votes": 25152,
+              "other_votes": 880,
+              "total_votes": 37242,
+              "two_party_total": 36362,
+              "margin": 13942,
+              "margin_pct": 38.34,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "ARKANSAS": {
+              "county": "ARKANSAS",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1503,
+              "rep_votes": 3951,
+              "other_votes": 93,
+              "total_votes": 5547,
+              "two_party_total": 5454,
+              "margin": 2448,
+              "margin_pct": 44.88,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "ST FRANCIS": {
+              "county": "ST FRANCIS",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2953,
+              "rep_votes": 2909,
+              "other_votes": 117,
+              "total_votes": 5979,
+              "two_party_total": 5862,
+              "margin": 44,
+              "margin_pct": 0.75,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Tilt",
+                "party": "Democratic",
+                "code": "D_TILT",
+                "color": "#e1f5fe"
+              }
+            },
+            "HEMPSTEAD": {
+              "county": "HEMPSTEAD",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1776,
+              "rep_votes": 4193,
+              "other_votes": 120,
+              "total_votes": 6089,
+              "two_party_total": 5969,
+              "margin": 2417,
+              "margin_pct": 40.49,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "JOHNSON": {
+              "county": "JOHNSON",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2107,
+              "rep_votes": 6766,
+              "other_votes": 186,
+              "total_votes": 9059,
+              "two_party_total": 8873,
+              "margin": 4659,
+              "margin_pct": 52.51,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CRAWFORD": {
+              "county": "CRAWFORD",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 4753,
+              "rep_votes": 18615,
+              "other_votes": 466,
+              "total_votes": 23834,
+              "two_party_total": 23368,
+              "margin": 13862,
+              "margin_pct": 59.32,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "IZARD": {
+              "county": "IZARD",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 949,
+              "rep_votes": 4854,
+              "other_votes": 122,
+              "total_votes": 5925,
+              "two_party_total": 5803,
+              "margin": 3905,
+              "margin_pct": 67.29,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SEVIER": {
+              "county": "SEVIER",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 862,
+              "rep_votes": 3772,
+              "other_votes": 80,
+              "total_votes": 4714,
+              "two_party_total": 4634,
+              "margin": 2910,
+              "margin_pct": 62.8,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MONROE": {
+              "county": "MONROE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1002,
+              "rep_votes": 1385,
+              "other_votes": 46,
+              "total_votes": 2433,
+              "two_party_total": 2387,
+              "margin": 383,
+              "margin_pct": 16.05,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Republican",
+                "code": "R_SAFE",
+                "color": "#ef3b2c"
+              }
+            },
+            "WASHINGTON": {
+              "county": "WASHINGTON",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 43779,
+              "rep_votes": 50243,
+              "other_votes": 3136,
+              "total_votes": 97158,
+              "two_party_total": 94022,
+              "margin": 6464,
+              "margin_pct": 6.87,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Likely",
+                "party": "Republican",
+                "code": "R_LIKELY",
+                "color": "#fb6a4a"
+              }
+            },
+            "DREW": {
+              "county": "DREW",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2050,
+              "rep_votes": 4203,
+              "other_votes": 112,
+              "total_votes": 6365,
+              "two_party_total": 6253,
+              "margin": 2153,
+              "margin_pct": 34.43,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "STONE": {
+              "county": "STONE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1089,
+              "rep_votes": 4808,
+              "other_votes": 133,
+              "total_votes": 6030,
+              "two_party_total": 5897,
+              "margin": 3719,
+              "margin_pct": 63.07,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "HOT SPRING": {
+              "county": "HOT SPRING",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2818,
+              "rep_votes": 9226,
+              "other_votes": 239,
+              "total_votes": 12283,
+              "two_party_total": 12044,
+              "margin": 6408,
+              "margin_pct": 53.2,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SEBASTIAN": {
+              "county": "SEBASTIAN",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 13652,
+              "rep_votes": 30719,
+              "other_votes": 1081,
+              "total_votes": 45452,
+              "two_party_total": 44371,
+              "margin": 17067,
+              "margin_pct": 38.46,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "CROSS": {
+              "county": "CROSS",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1642,
+              "rep_votes": 4753,
+              "other_votes": 139,
+              "total_votes": 6534,
+              "two_party_total": 6395,
+              "margin": 3111,
+              "margin_pct": 48.65,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MISSISSIPPI": {
+              "county": "MISSISSIPPI",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 3574,
+              "rep_votes": 6963,
+              "other_votes": 180,
+              "total_votes": 10717,
+              "two_party_total": 10537,
+              "margin": 3389,
+              "margin_pct": 32.16,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "CALHOUN": {
+              "county": "CALHOUN",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 379,
+              "rep_votes": 1674,
+              "other_votes": 39,
+              "total_votes": 2092,
+              "two_party_total": 2053,
+              "margin": 1295,
+              "margin_pct": 63.08,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CHICOT": {
+              "county": "CHICOT",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1796,
+              "rep_votes": 1658,
+              "other_votes": 36,
+              "total_votes": 3490,
+              "two_party_total": 3454,
+              "margin": 138,
+              "margin_pct": 4.0,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Lean",
+                "party": "Democratic",
+                "code": "D_LEAN",
+                "color": "#c6dbef"
+              }
+            },
+            "MILLER": {
+              "county": "MILLER",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 3769,
+              "rep_votes": 11842,
+              "other_votes": 192,
+              "total_votes": 15803,
+              "two_party_total": 15611,
+              "margin": 8073,
+              "margin_pct": 51.71,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SEARCY": {
+              "county": "SEARCY",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 511,
+              "rep_votes": 3305,
+              "other_votes": 53,
+              "total_votes": 3869,
+              "two_party_total": 3816,
+              "margin": 2794,
+              "margin_pct": 73.22,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "VAN BUREN": {
+              "county": "VAN BUREN",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1437,
+              "rep_votes": 6023,
+              "other_votes": 161,
+              "total_votes": 7621,
+              "two_party_total": 7460,
+              "margin": 4586,
+              "margin_pct": 61.47,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "PERRY": {
+              "county": "PERRY",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 923,
+              "rep_votes": 3559,
+              "other_votes": 102,
+              "total_votes": 4584,
+              "two_party_total": 4482,
+              "margin": 2636,
+              "margin_pct": 58.81,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LOGAN": {
+              "county": "LOGAN",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1464,
+              "rep_votes": 6567,
+              "other_votes": 174,
+              "total_votes": 8205,
+              "two_party_total": 8031,
+              "margin": 5103,
+              "margin_pct": 63.54,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SCOTT": {
+              "county": "SCOTT",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 425,
+              "rep_votes": 2913,
+              "other_votes": 46,
+              "total_votes": 3384,
+              "two_party_total": 3338,
+              "margin": 2488,
+              "margin_pct": 74.54,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CLAY": {
+              "county": "CLAY",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 907,
+              "rep_votes": 3968,
+              "other_votes": 92,
+              "total_votes": 4967,
+              "two_party_total": 4875,
+              "margin": 3061,
+              "margin_pct": 62.79,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "GREENE": {
+              "county": "GREENE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2935,
+              "rep_votes": 12617,
+              "other_votes": 268,
+              "total_votes": 15820,
+              "two_party_total": 15552,
+              "margin": 9682,
+              "margin_pct": 62.26,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LAFAYETTE": {
+              "county": "LAFAYETTE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 698,
+              "rep_votes": 1589,
+              "other_votes": 38,
+              "total_votes": 2325,
+              "two_party_total": 2287,
+              "margin": 891,
+              "margin_pct": 38.96,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "DALLAS": {
+              "county": "DALLAS",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 798,
+              "rep_votes": 1482,
+              "other_votes": 44,
+              "total_votes": 2324,
+              "two_party_total": 2280,
+              "margin": 684,
+              "margin_pct": 30.0,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "SHARP": {
+              "county": "SHARP",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1316,
+              "rep_votes": 5978,
+              "other_votes": 143,
+              "total_votes": 7437,
+              "two_party_total": 7294,
+              "margin": 4662,
+              "margin_pct": 63.92,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "INDEPENDENCE": {
+              "county": "INDEPENDENCE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2689,
+              "rep_votes": 11023,
+              "other_votes": 299,
+              "total_votes": 14011,
+              "two_party_total": 13712,
+              "margin": 8334,
+              "margin_pct": 60.78,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CLEVELAND": {
+              "county": "CLEVELAND",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 524,
+              "rep_votes": 2804,
+              "other_votes": 46,
+              "total_votes": 3374,
+              "two_party_total": 3328,
+              "margin": 2280,
+              "margin_pct": 68.51,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "NEWTON": {
+              "county": "NEWTON",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 644,
+              "rep_votes": 3063,
+              "other_votes": 63,
+              "total_votes": 3770,
+              "two_party_total": 3707,
+              "margin": 2419,
+              "margin_pct": 65.25,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LITTLE RIVER": {
+              "county": "LITTLE RIVER",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1084,
+              "rep_votes": 3744,
+              "other_votes": 71,
+              "total_votes": 4899,
+              "two_party_total": 4828,
+              "margin": 2660,
+              "margin_pct": 55.1,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "PRAIRIE": {
+              "county": "PRAIRIE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 524,
+              "rep_votes": 2628,
+              "other_votes": 48,
+              "total_votes": 3200,
+              "two_party_total": 3152,
+              "margin": 2104,
+              "margin_pct": 66.75,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MARION": {
+              "county": "MARION",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1501,
+              "rep_votes": 6230,
+              "other_votes": 120,
+              "total_votes": 7851,
+              "two_party_total": 7731,
+              "margin": 4729,
+              "margin_pct": 61.17,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "UNION": {
+              "county": "UNION",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 5019,
+              "rep_votes": 10196,
+              "other_votes": 233,
+              "total_votes": 15448,
+              "two_party_total": 15215,
+              "margin": 5177,
+              "margin_pct": 34.03,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "RANDOLPH": {
+              "county": "RANDOLPH",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1138,
+              "rep_votes": 5367,
+              "other_votes": 131,
+              "total_votes": 6636,
+              "two_party_total": 6505,
+              "margin": 4229,
+              "margin_pct": 65.01,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CLEBURNE": {
+              "county": "CLEBURNE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1941,
+              "rep_votes": 10595,
+              "other_votes": 203,
+              "total_votes": 12739,
+              "two_party_total": 12536,
+              "margin": 8654,
+              "margin_pct": 69.03,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "NEVADA": {
+              "county": "NEVADA",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 849,
+              "rep_votes": 2002,
+              "other_votes": 56,
+              "total_votes": 2907,
+              "two_party_total": 2851,
+              "margin": 1153,
+              "margin_pct": 40.44,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "JACKSON": {
+              "county": "JACKSON",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1183,
+              "rep_votes": 3509,
+              "other_votes": 83,
+              "total_votes": 4775,
+              "two_party_total": 4692,
+              "margin": 2326,
+              "margin_pct": 49.57,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "FULTON": {
+              "county": "FULTON",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 906,
+              "rep_votes": 4040,
+              "other_votes": 97,
+              "total_votes": 5043,
+              "two_party_total": 4946,
+              "margin": 3134,
+              "margin_pct": 63.36,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "POINSETT": {
+              "county": "POINSETT",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1235,
+              "rep_votes": 5731,
+              "other_votes": 113,
+              "total_votes": 7079,
+              "two_party_total": 6966,
+              "margin": 4496,
+              "margin_pct": 64.54,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "POLK": {
+              "county": "POLK",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1145,
+              "rep_votes": 6987,
+              "other_votes": 156,
+              "total_votes": 8288,
+              "two_party_total": 8132,
+              "margin": 5842,
+              "margin_pct": 71.84,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "GRANT": {
+              "county": "GRANT",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1192,
+              "rep_votes": 6755,
+              "other_votes": 131,
+              "total_votes": 8078,
+              "two_party_total": 7947,
+              "margin": 5563,
+              "margin_pct": 70.0,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SALINE": {
+              "county": "SALINE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 16609,
+              "rep_votes": 39736,
+              "other_votes": 1264,
+              "total_votes": 57609,
+              "two_party_total": 56345,
+              "margin": 23127,
+              "margin_pct": 41.05,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "BOONE": {
+              "county": "BOONE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2854,
+              "rep_votes": 13968,
+              "other_votes": 290,
+              "total_votes": 17112,
+              "two_party_total": 16822,
+              "margin": 11114,
+              "margin_pct": 66.07,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2754,
+              "rep_votes": 2098,
+              "other_votes": 86,
+              "total_votes": 4938,
+              "two_party_total": 4852,
+              "margin": 656,
+              "margin_pct": 13.52,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Democratic",
+                "code": "D_SAFE",
+                "color": "#6baed6"
+              }
+            },
+            "LAWRENCE": {
+              "county": "LAWRENCE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 965,
+              "rep_votes": 4608,
+              "other_votes": 119,
+              "total_votes": 5692,
+              "two_party_total": 5573,
+              "margin": 3643,
+              "margin_pct": 65.37,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "GARLAND": {
+              "county": "GARLAND",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 13015,
+              "rep_votes": 28359,
+              "other_votes": 953,
+              "total_votes": 42327,
+              "two_party_total": 41374,
+              "margin": 15344,
+              "margin_pct": 37.09,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "WOODRUFF": {
+              "county": "WOODRUFF",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 760,
+              "rep_votes": 1513,
+              "other_votes": 45,
+              "total_votes": 2318,
+              "two_party_total": 2273,
+              "margin": 753,
+              "margin_pct": 33.13,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "COLUMBIA": {
+              "county": "COLUMBIA",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 2466,
+              "rep_votes": 5367,
+              "other_votes": 107,
+              "total_votes": 7940,
+              "two_party_total": 7833,
+              "margin": 2901,
+              "margin_pct": 37.04,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "POPE": {
+              "county": "POPE",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 5487,
+              "rep_votes": 18118,
+              "other_votes": 586,
+              "total_votes": 24191,
+              "two_party_total": 23605,
+              "margin": 12631,
+              "margin_pct": 53.51,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "FRANKLIN": {
+              "county": "FRANKLIN",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 1232,
+              "rep_votes": 5582,
+              "other_votes": 157,
+              "total_votes": 6971,
+              "two_party_total": 6814,
+              "margin": 4350,
+              "margin_pct": 63.84,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CARROLL": {
+              "county": "CARROLL",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 3812,
+              "rep_votes": 7470,
+              "other_votes": 256,
+              "total_votes": 11538,
+              "two_party_total": 11282,
+              "margin": 3658,
+              "margin_pct": 32.42,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "CRITTENDEN": {
+              "county": "CRITTENDEN",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 7362,
+              "rep_votes": 7028,
+              "other_votes": 291,
+              "total_votes": 14681,
+              "two_party_total": 14390,
+              "margin": 334,
+              "margin_pct": 2.32,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Lean",
+                "party": "Democratic",
+                "code": "D_LEAN",
+                "color": "#c6dbef"
+              }
+            },
+            "OUACHITA": {
+              "county": "OUACHITA",
+              "contest": "US PRESIDENT",
+              "year": "2024",
+              "dem_candidate": "KAMALA D HARRIS",
+              "rep_candidate": "DONALD J TRUMP",
+              "dem_votes": 3412,
+              "rep_votes": 5056,
+              "other_votes": 158,
+              "total_votes": 8626,
+              "two_party_total": 8468,
+              "margin": 1644,
+              "margin_pct": 19.41,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Republican",
+                "code": "R_SAFE",
+                "color": "#ef3b2c"
+              }
+            }
+          }
+        }
+      },
+      "statewide": {
+        "state_treasurer": {
+          "contest_name": "STATE TREASURER",
+          "results": {
+            "JEFFERSON": {
+              "county": "JEFFERSON",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 11266,
+              "rep_votes": 8924,
+              "other_votes": 771,
+              "total_votes": 20961,
+              "two_party_total": 20190,
+              "margin": 2342,
+              "margin_pct": 11.6,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Democratic",
+                "code": "D_SAFE",
+                "color": "#6baed6"
+              }
+            },
+            "BAXTER": {
+              "county": "BAXTER",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 3818,
+              "rep_votes": 15915,
+              "other_votes": 712,
+              "total_votes": 20445,
+              "two_party_total": 19733,
+              "margin": 12097,
+              "margin_pct": 61.3,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "HOWARD": {
+              "county": "HOWARD",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1019,
+              "rep_votes": 3228,
+              "other_votes": 109,
+              "total_votes": 4356,
+              "two_party_total": 4247,
+              "margin": 2209,
+              "margin_pct": 52.01,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CONWAY": {
+              "county": "CONWAY",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 2222,
+              "rep_votes": 5924,
+              "other_votes": 270,
+              "total_votes": 8416,
+              "two_party_total": 8146,
+              "margin": 3702,
+              "margin_pct": 45.45,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "BRADLEY": {
+              "county": "BRADLEY",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 873,
+              "rep_votes": 2213,
+              "other_votes": 69,
+              "total_votes": 3155,
+              "two_party_total": 3086,
+              "margin": 1340,
+              "margin_pct": 43.42,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "ASHLEY": {
+              "county": "ASHLEY",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1605,
+              "rep_votes": 5143,
+              "other_votes": 128,
+              "total_votes": 6876,
+              "two_party_total": 6748,
+              "margin": 3538,
+              "margin_pct": 52.43,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CLARK": {
+              "county": "CLARK",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 2629,
+              "rep_votes": 4600,
+              "other_votes": 301,
+              "total_votes": 7530,
+              "two_party_total": 7229,
+              "margin": 1971,
+              "margin_pct": 27.27,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Stronghold",
+                "party": "Republican",
+                "code": "R_STRONGHOLD",
+                "color": "#cb181d"
+              }
+            },
+            "DESHA": {
+              "county": "DESHA",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1498,
+              "rep_votes": 1841,
+              "other_votes": 47,
+              "total_votes": 3386,
+              "two_party_total": 3339,
+              "margin": 343,
+              "margin_pct": 10.27,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Republican",
+                "code": "R_SAFE",
+                "color": "#ef3b2c"
+              }
+            },
+            "WHITE": {
+              "county": "WHITE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 4903,
+              "rep_votes": 23938,
+              "other_votes": 1154,
+              "total_votes": 29995,
+              "two_party_total": 28841,
+              "margin": 19035,
+              "margin_pct": 66.0,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "YELL": {
+              "county": "YELL",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1071,
+              "rep_votes": 5049,
+              "other_votes": 210,
+              "total_votes": 6330,
+              "two_party_total": 6120,
+              "margin": 3978,
+              "margin_pct": 65.0,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "PIKE": {
+              "county": "PIKE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 514,
+              "rep_votes": 3655,
+              "other_votes": 120,
+              "total_votes": 4289,
+              "two_party_total": 4169,
+              "margin": 3141,
+              "margin_pct": 75.34,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MONTGOMERY": {
+              "county": "MONTGOMERY",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 600,
+              "rep_votes": 2891,
+              "other_votes": 125,
+              "total_votes": 3616,
+              "two_party_total": 3491,
+              "margin": 2291,
+              "margin_pct": 65.63,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "FAULKNER": {
+              "county": "FAULKNER",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 15505,
+              "rep_votes": 35014,
+              "other_votes": 3019,
+              "total_votes": 53538,
+              "two_party_total": 50519,
+              "margin": 19509,
+              "margin_pct": 38.62,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "MADISON": {
+              "county": "MADISON",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1352,
+              "rep_votes": 5732,
+              "other_votes": 239,
+              "total_votes": 7323,
+              "two_party_total": 7084,
+              "margin": 4380,
+              "margin_pct": 61.83,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LINCOLN": {
+              "county": "LINCOLN",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 759,
+              "rep_votes": 2476,
+              "other_votes": 84,
+              "total_votes": 3319,
+              "two_party_total": 3235,
+              "margin": 1717,
+              "margin_pct": 53.08,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "BENTON": {
+              "county": "BENTON",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 38004,
+              "rep_votes": 81640,
+              "other_votes": 6163,
+              "total_votes": 125807,
+              "two_party_total": 119644,
+              "margin": 43636,
+              "margin_pct": 36.47,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "PULASKI": {
+              "county": "PULASKI",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 81421,
+              "rep_votes": 59596,
+              "other_votes": 9086,
+              "total_votes": 150103,
+              "two_party_total": 141017,
+              "margin": 21825,
+              "margin_pct": 15.48,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Democratic",
+                "code": "D_SAFE",
+                "color": "#6baed6"
+              }
+            },
+            "LONOKE": {
+              "county": "LONOKE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 5786,
+              "rep_votes": 22921,
+              "other_votes": 1390,
+              "total_votes": 30097,
+              "two_party_total": 28707,
+              "margin": 17135,
+              "margin_pct": 59.69,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LEE": {
+              "county": "LEE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1191,
+              "rep_votes": 1191,
+              "other_votes": 61,
+              "total_votes": 2443,
+              "two_party_total": 2382,
+              "margin": 0,
+              "margin_pct": 0,
+              "winner": "NONE",
+              "competitiveness": {
+                "category": "Tossup",
+                "party": null,
+                "code": "TOSSUP",
+                "color": "#f7f7f7"
+              }
+            },
+            "CRAIGHEAD": {
+              "county": "CRAIGHEAD",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 10029,
+              "rep_votes": 25370,
+              "other_votes": 1056,
+              "total_votes": 36455,
+              "two_party_total": 35399,
+              "margin": 15341,
+              "margin_pct": 43.34,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "ARKANSAS": {
+              "county": "ARKANSAS",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1342,
+              "rep_votes": 3955,
+              "other_votes": 159,
+              "total_votes": 5456,
+              "two_party_total": 5297,
+              "margin": 2613,
+              "margin_pct": 49.33,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "ST FRANCIS": {
+              "county": "ST FRANCIS",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 2801,
+              "rep_votes": 2910,
+              "other_votes": 121,
+              "total_votes": 5832,
+              "two_party_total": 5711,
+              "margin": 109,
+              "margin_pct": 1.91,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Lean",
+                "party": "Republican",
+                "code": "R_LEAN",
+                "color": "#fcae91"
+              }
+            },
+            "HEMPSTEAD": {
+              "county": "HEMPSTEAD",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1608,
+              "rep_votes": 4106,
+              "other_votes": 189,
+              "total_votes": 5903,
+              "two_party_total": 5714,
+              "margin": 2498,
+              "margin_pct": 43.72,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "JOHNSON": {
+              "county": "JOHNSON",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1836,
+              "rep_votes": 6627,
+              "other_votes": 383,
+              "total_votes": 8846,
+              "two_party_total": 8463,
+              "margin": 4791,
+              "margin_pct": 56.61,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CRAWFORD": {
+              "county": "CRAWFORD",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 4287,
+              "rep_votes": 17812,
+              "other_votes": 839,
+              "total_votes": 22938,
+              "two_party_total": 22099,
+              "margin": 13525,
+              "margin_pct": 61.2,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "IZARD": {
+              "county": "IZARD",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 810,
+              "rep_votes": 4766,
+              "other_votes": 207,
+              "total_votes": 5783,
+              "two_party_total": 5576,
+              "margin": 3956,
+              "margin_pct": 70.95,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SEVIER": {
+              "county": "SEVIER",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 805,
+              "rep_votes": 3657,
+              "other_votes": 137,
+              "total_votes": 4599,
+              "two_party_total": 4462,
+              "margin": 2852,
+              "margin_pct": 63.92,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MONROE": {
+              "county": "MONROE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 919,
+              "rep_votes": 1405,
+              "other_votes": 56,
+              "total_votes": 2380,
+              "two_party_total": 2324,
+              "margin": 486,
+              "margin_pct": 20.91,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Stronghold",
+                "party": "Republican",
+                "code": "R_STRONGHOLD",
+                "color": "#cb181d"
+              }
+            },
+            "WASHINGTON": {
+              "county": "WASHINGTON",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 39066,
+              "rep_votes": 51529,
+              "other_votes": 4316,
+              "total_votes": 94911,
+              "two_party_total": 90595,
+              "margin": 12463,
+              "margin_pct": 13.76,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Safe",
+                "party": "Republican",
+                "code": "R_SAFE",
+                "color": "#ef3b2c"
+              }
+            },
+            "DREW": {
+              "county": "DREW",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1886,
+              "rep_votes": 4202,
+              "other_votes": 173,
+              "total_votes": 6261,
+              "two_party_total": 6088,
+              "margin": 2316,
+              "margin_pct": 38.04,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "STONE": {
+              "county": "STONE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1017,
+              "rep_votes": 4602,
+              "other_votes": 230,
+              "total_votes": 5849,
+              "two_party_total": 5619,
+              "margin": 3585,
+              "margin_pct": 63.8,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "HOT SPRING": {
+              "county": "HOT SPRING",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 2506,
+              "rep_votes": 9158,
+              "other_votes": 417,
+              "total_votes": 12081,
+              "two_party_total": 11664,
+              "margin": 6652,
+              "margin_pct": 57.03,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SEBASTIAN": {
+              "county": "SEBASTIAN",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 11941,
+              "rep_votes": 30335,
+              "other_votes": 2192,
+              "total_votes": 44468,
+              "two_party_total": 42276,
+              "margin": 18394,
+              "margin_pct": 43.51,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CROSS": {
+              "county": "CROSS",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1512,
+              "rep_votes": 4732,
+              "other_votes": 150,
+              "total_votes": 6394,
+              "two_party_total": 6244,
+              "margin": 3220,
+              "margin_pct": 51.57,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MISSISSIPPI": {
+              "county": "MISSISSIPPI",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 3119,
+              "rep_votes": 6920,
+              "other_votes": 296,
+              "total_votes": 10335,
+              "two_party_total": 10039,
+              "margin": 3801,
+              "margin_pct": 37.86,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "CALHOUN": {
+              "county": "CALHOUN",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 331,
+              "rep_votes": 1651,
+              "other_votes": 76,
+              "total_votes": 2058,
+              "two_party_total": 1982,
+              "margin": 1320,
+              "margin_pct": 66.6,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CHICOT": {
+              "county": "CHICOT",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1704,
+              "rep_votes": 1708,
+              "other_votes": 47,
+              "total_votes": 3459,
+              "two_party_total": 3412,
+              "margin": 4,
+              "margin_pct": 0.12,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Unknown",
+                "party": "Republican",
+                "code": "R_UNKNOWN",
+                "color": "#cccccc"
+              }
+            },
+            "MILLER": {
+              "county": "MILLER",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 3440,
+              "rep_votes": 11544,
+              "other_votes": 456,
+              "total_votes": 15440,
+              "two_party_total": 14984,
+              "margin": 8104,
+              "margin_pct": 54.08,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SEARCY": {
+              "county": "SEARCY",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 489,
+              "rep_votes": 3181,
+              "other_votes": 120,
+              "total_votes": 3790,
+              "two_party_total": 3670,
+              "margin": 2692,
+              "margin_pct": 73.35,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "VAN BUREN": {
+              "county": "VAN BUREN",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1318,
+              "rep_votes": 5841,
+              "other_votes": 285,
+              "total_votes": 7444,
+              "two_party_total": 7159,
+              "margin": 4523,
+              "margin_pct": 63.18,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "PERRY": {
+              "county": "PERRY",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 825,
+              "rep_votes": 3463,
+              "other_votes": 193,
+              "total_votes": 4481,
+              "two_party_total": 4288,
+              "margin": 2638,
+              "margin_pct": 61.52,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LOGAN": {
+              "county": "LOGAN",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1303,
+              "rep_votes": 6420,
+              "other_votes": 350,
+              "total_votes": 8073,
+              "two_party_total": 7723,
+              "margin": 5117,
+              "margin_pct": 66.26,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SCOTT": {
+              "county": "SCOTT",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 374,
+              "rep_votes": 2805,
+              "other_votes": 114,
+              "total_votes": 3293,
+              "two_party_total": 3179,
+              "margin": 2431,
+              "margin_pct": 76.47,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CLAY": {
+              "county": "CLAY",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 815,
+              "rep_votes": 3820,
+              "other_votes": 117,
+              "total_votes": 4752,
+              "two_party_total": 4635,
+              "margin": 3005,
+              "margin_pct": 64.83,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "GREENE": {
+              "county": "GREENE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 2632,
+              "rep_votes": 12211,
+              "other_votes": 531,
+              "total_votes": 15374,
+              "two_party_total": 14843,
+              "margin": 9579,
+              "margin_pct": 64.54,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LAFAYETTE": {
+              "county": "LAFAYETTE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 625,
+              "rep_votes": 1578,
+              "other_votes": 50,
+              "total_votes": 2253,
+              "two_party_total": 2203,
+              "margin": 953,
+              "margin_pct": 43.26,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "DALLAS": {
+              "county": "DALLAS",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 738,
+              "rep_votes": 1469,
+              "other_votes": 59,
+              "total_votes": 2266,
+              "two_party_total": 2207,
+              "margin": 731,
+              "margin_pct": 33.12,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "SHARP": {
+              "county": "SHARP",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1192,
+              "rep_votes": 5825,
+              "other_votes": 253,
+              "total_votes": 7270,
+              "two_party_total": 7017,
+              "margin": 4633,
+              "margin_pct": 66.03,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "INDEPENDENCE": {
+              "county": "INDEPENDENCE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 2537,
+              "rep_votes": 10805,
+              "other_votes": 350,
+              "total_votes": 13692,
+              "two_party_total": 13342,
+              "margin": 8268,
+              "margin_pct": 61.97,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CLEVELAND": {
+              "county": "CLEVELAND",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 449,
+              "rep_votes": 2772,
+              "other_votes": 84,
+              "total_votes": 3305,
+              "two_party_total": 3221,
+              "margin": 2323,
+              "margin_pct": 72.12,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "NEWTON": {
+              "county": "NEWTON",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 609,
+              "rep_votes": 2900,
+              "other_votes": 116,
+              "total_votes": 3625,
+              "two_party_total": 3509,
+              "margin": 2291,
+              "margin_pct": 65.29,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "LITTLE RIVER": {
+              "county": "LITTLE RIVER",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 970,
+              "rep_votes": 3678,
+              "other_votes": 131,
+              "total_votes": 4779,
+              "two_party_total": 4648,
+              "margin": 2708,
+              "margin_pct": 58.26,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "PRAIRIE": {
+              "county": "PRAIRIE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 467,
+              "rep_votes": 2588,
+              "other_votes": 72,
+              "total_votes": 3127,
+              "two_party_total": 3055,
+              "margin": 2121,
+              "margin_pct": 69.43,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "MARION": {
+              "county": "MARION",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1290,
+              "rep_votes": 6078,
+              "other_votes": 286,
+              "total_votes": 7654,
+              "two_party_total": 7368,
+              "margin": 4788,
+              "margin_pct": 64.98,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "UNION": {
+              "county": "UNION",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 4482,
+              "rep_votes": 10201,
+              "other_votes": 440,
+              "total_votes": 15123,
+              "two_party_total": 14683,
+              "margin": 5719,
+              "margin_pct": 38.95,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "RANDOLPH": {
+              "county": "RANDOLPH",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1009,
+              "rep_votes": 5203,
+              "other_votes": 214,
+              "total_votes": 6426,
+              "two_party_total": 6212,
+              "margin": 4194,
+              "margin_pct": 67.51,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CLEBURNE": {
+              "county": "CLEBURNE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1722,
+              "rep_votes": 10464,
+              "other_votes": 371,
+              "total_votes": 12557,
+              "two_party_total": 12186,
+              "margin": 8742,
+              "margin_pct": 71.74,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "NEVADA": {
+              "county": "NEVADA",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 757,
+              "rep_votes": 2004,
+              "other_votes": 88,
+              "total_votes": 2849,
+              "two_party_total": 2761,
+              "margin": 1247,
+              "margin_pct": 45.16,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "JACKSON": {
+              "county": "JACKSON",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1084,
+              "rep_votes": 3492,
+              "other_votes": 117,
+              "total_votes": 4693,
+              "two_party_total": 4576,
+              "margin": 2408,
+              "margin_pct": 52.62,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "FULTON": {
+              "county": "FULTON",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 880,
+              "rep_votes": 3866,
+              "other_votes": 157,
+              "total_votes": 4903,
+              "two_party_total": 4746,
+              "margin": 2986,
+              "margin_pct": 62.92,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "POINSETT": {
+              "county": "POINSETT",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1097,
+              "rep_votes": 5618,
+              "other_votes": 183,
+              "total_votes": 6898,
+              "two_party_total": 6715,
+              "margin": 4521,
+              "margin_pct": 67.33,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "POLK": {
+              "county": "POLK",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1005,
+              "rep_votes": 6710,
+              "other_votes": 367,
+              "total_votes": 8082,
+              "two_party_total": 7715,
+              "margin": 5705,
+              "margin_pct": 73.95,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "GRANT": {
+              "county": "GRANT",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1049,
+              "rep_votes": 6587,
+              "other_votes": 327,
+              "total_votes": 7963,
+              "two_party_total": 7636,
+              "margin": 5538,
+              "margin_pct": 72.52,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "SALINE": {
+              "county": "SALINE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 14376,
+              "rep_votes": 39132,
+              "other_votes": 3112,
+              "total_votes": 56620,
+              "two_party_total": 53508,
+              "margin": 24756,
+              "margin_pct": 46.27,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "BOONE": {
+              "county": "BOONE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 2528,
+              "rep_votes": 13461,
+              "other_votes": 660,
+              "total_votes": 16649,
+              "two_party_total": 15989,
+              "margin": 10933,
+              "margin_pct": 68.38,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "PHILLIPS": {
+              "county": "PHILLIPS",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 2427,
+              "rep_votes": 2219,
+              "other_votes": 90,
+              "total_votes": 4736,
+              "two_party_total": 4646,
+              "margin": 208,
+              "margin_pct": 4.48,
+              "winner": "DEM",
+              "competitiveness": {
+                "category": "Lean",
+                "party": "Democratic",
+                "code": "D_LEAN",
+                "color": "#c6dbef"
+              }
+            },
+            "LAWRENCE": {
+              "county": "LAWRENCE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 833,
+              "rep_votes": 4568,
+              "other_votes": 176,
+              "total_votes": 5577,
+              "two_party_total": 5401,
+              "margin": 3735,
+              "margin_pct": 69.15,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "GARLAND": {
+              "county": "GARLAND",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 11166,
+              "rep_votes": 27572,
+              "other_votes": 2012,
+              "total_votes": 40750,
+              "two_party_total": 38738,
+              "margin": 16406,
+              "margin_pct": 42.35,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "WOODRUFF": {
+              "county": "WOODRUFF",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 698,
+              "rep_votes": 1520,
+              "other_votes": 50,
+              "total_votes": 2268,
+              "two_party_total": 2218,
+              "margin": 822,
+              "margin_pct": 37.06,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "COLUMBIA": {
+              "county": "COLUMBIA",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 2225,
+              "rep_votes": 5266,
+              "other_votes": 227,
+              "total_votes": 7718,
+              "two_party_total": 7491,
+              "margin": 3041,
+              "margin_pct": 40.6,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "POPE": {
+              "county": "POPE",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 4731,
+              "rep_votes": 17768,
+              "other_votes": 1229,
+              "total_votes": 23728,
+              "two_party_total": 22499,
+              "margin": 13037,
+              "margin_pct": 57.94,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "FRANKLIN": {
+              "county": "FRANKLIN",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 1067,
+              "rep_votes": 5447,
+              "other_votes": 296,
+              "total_votes": 6810,
+              "two_party_total": 6514,
+              "margin": 4380,
+              "margin_pct": 67.24,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Annihilation",
+                "party": "Republican",
+                "code": "R_ANNIHILATION",
+                "color": "#67000d"
+              }
+            },
+            "CARROLL": {
+              "county": "CARROLL",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 3435,
+              "rep_votes": 7389,
+              "other_votes": 462,
+              "total_votes": 11286,
+              "two_party_total": 10824,
+              "margin": 3954,
+              "margin_pct": 36.53,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Dominant",
+                "party": "Republican",
+                "code": "R_DOMINANT",
+                "color": "#a50f15"
+              }
+            },
+            "CRITTENDEN": {
+              "county": "CRITTENDEN",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 6802,
+              "rep_votes": 7152,
+              "other_votes": 371,
+              "total_votes": 14325,
+              "two_party_total": 13954,
+              "margin": 350,
+              "margin_pct": 2.51,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Lean",
+                "party": "Republican",
+                "code": "R_LEAN",
+                "color": "#fcae91"
+              }
+            },
+            "OUACHITA": {
+              "county": "OUACHITA",
+              "contest": "STATE TREASURER",
+              "year": "2024",
+              "dem_candidate": "JOHN PAGAN",
+              "rep_candidate": "JOHN THURSTON",
+              "dem_votes": 3137,
+              "rep_votes": 5098,
+              "other_votes": 222,
+              "total_votes": 8457,
+              "two_party_total": 8235,
+              "margin": 1961,
+              "margin_pct": 23.81,
+              "winner": "REP",
+              "competitiveness": {
+                "category": "Stronghold",
+                "party": "Republican",
+                "code": "R_STRONGHOLD",
+                "color": "#cb181d"
               }
             }
           }

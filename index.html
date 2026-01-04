@@ -923,7 +923,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     mapboxgl.accessToken = CONFIG.mapboxToken;
 
-    const map = new mapboxgl.Map({ container: 'map', style: 'mapbox://styles/mapbox/light-v11', center: CONFIG.center, zoom: CONFIG.zoom });
+    const map = new mapboxgl.Map({ container: 'map', style: 'mapbox://styles/mapbox/streets-v12', center: CONFIG.center, zoom: CONFIG.zoom });
 
     let electionData = null;
     let currentContest = null;
@@ -2011,7 +2011,7 @@ function toggleSidebar() {
           id: 'county-fill', 
           type: 'fill', 
           source: 'counties', 
-          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.38 } 
+          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.83 } 
         });
         map.addLayer({ 
           id: 'county-stroke', 
@@ -2979,7 +2979,7 @@ function filterValidContests(contests) {
     if (map && map.getLayer('county-fill')) {
       map.setPaintProperty('county-fill', 'fill-color', colorExpression);
       // Also ensure proper opacity and visibility
-      map.setPaintProperty('county-fill', 'fill-opacity', 0.3);
+      map.setPaintProperty('county-fill', 'fill-opacity', 0.83);
       map.setLayoutProperty('county-fill', 'visibility', 'visible');
     }
 

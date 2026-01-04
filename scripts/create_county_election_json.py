@@ -17,17 +17,17 @@ data_path = Path('Data')
 for csv_file in data_path.rglob('*.csv'):
     # Skip the lookup file and other non-election files
     if 'lookup' not in csv_file.name.lower() and csv_file.stat().st_size > 0:
-        # SKIP 2024 files - they use Location IDs without reliable county mapping
-        # SKIP 2022 Location ID files (the ones in Data/ root), but ALLOW 2022/counties files
-        if '2024' in csv_file.name:
-            print(f"  [SKIP] {csv_file.name} - Location ID mapping unreliable")
+        # SKIP 2024 Location ID files (but ALLOW MIT format files in 2024/counties)
+        if '2024' in csv_file.name and 'counties' not in str(csv_file.parent):
+            print(f"  [SKIP] {csv_file.name} - Location ID format (use counties/ instead)")
             continue
+        # SKIP 2022 Location ID files (the ones in Data/ root), but ALLOW 2022/counties files
         if '2022' in csv_file.name and 'counties' not in str(csv_file.parent):
             print(f"  [SKIP] {csv_file.name} - Location ID format (use counties/ instead)")
             continue
         all_csv_files.append(csv_file)
 
-print(f"\nFound {len(all_csv_files)} CSV files (excluded 2024 Location ID files, using 2022 county precinct files):")
+print(f"\nFound {len(all_csv_files)} CSV files (including 2024 MIT format, using 2022/2024 county precinct files):")
 for f in sorted(all_csv_files):
     print(f"  {f}")
 
@@ -263,11 +263,14 @@ def process_csv_file(csv_path, location_to_county):
         df = pd.read_csv(csv_path, on_bad_lines='skip', encoding='utf-8', encoding_errors='ignore')
         print(f"  Loaded {len(df)} rows")
         
-        # Check if it's the aligned format (with Location ID) or old format (with county name)
+        # Check if it's the aligned format (with Location ID) or old format (with county name) or MIT format
         has_location_id = 'Location ID' in df.columns
         has_contest_name = 'Contest Name' in df.columns
         has_office = 'office' in df.columns
         has_county = 'county' in df.columns
+        has_county_name = 'county_name' in df.columns  # MIT format
+        has_candidate = 'candidate' in df.columns  # MIT format
+        has_party_simplified = 'party_simplified' in df.columns  # MIT format
         
         if not has_contest_name and not has_office:
             print(f"  [SKIP] No contest/office column")
@@ -275,7 +278,82 @@ def process_csv_file(csv_path, location_to_county):
         
         results = {}
         
-        if has_contest_name and has_location_id:
+        # Check for MIT Election Lab format (2024)
+        if has_office and has_county_name and has_candidate and has_party_simplified:
+            # MIT format (2024)
+            print(f"  Processing MIT Election Lab format...")
+            
+            offices = df['office'].unique()
+            print(f"  Found {len(offices)} offices")
+            
+            for office_name in offices:
+                if pd.isna(office_name):
+                    continue
+                
+                # Determine category
+                category = categorize_office(office_name)
+                if category is None:
+                    continue  # Skip this office
+                
+                if category not in results:
+                    results[category] = {}
+                
+                office_data = df[df['office'] == office_name]
+                office_key = office_name.replace(' ', '_').replace('.', '').replace(',', '').lower()
+                
+                results[category][office_key] = {
+                    'contest_name': office_name,
+                    'results': {}
+                }
+                
+                # Process by county
+                for county_name in office_data['county_name'].unique():
+                    if pd.isna(county_name):
+                        continue
+                    
+                    county_data = office_data[office_data['county_name'] == county_name]
+                    
+                    # Aggregate votes by party (sum across all precincts and modes)
+                    county_result = {
+                        'total_votes': 0,
+                        'dem_votes': 0,
+                        'rep_votes': 0,
+                        'other_votes': 0,
+                        'dem_candidate': None,
+                        'rep_candidate': None
+                    }
+                    
+                    # Group by candidate to sum all votes
+                    for candidate_name in county_data['candidate'].unique():
+                        if pd.isna(candidate_name):
+                            continue
+                        
+                        candidate_votes = county_data[county_data['candidate'] == candidate_name]
+                        total_votes = int(candidate_votes['votes'].sum())
+                        
+                        # Get party from party_simplified column
+                        party_simplified = candidate_votes['party_simplified'].iloc[0] if len(candidate_votes) > 0 else ''
+                        
+                        if party_simplified == 'DEMOCRAT':
+                            county_result['dem_votes'] += total_votes
+                            if not county_result['dem_candidate']:
+                                county_result['dem_candidate'] = normalize_candidate_name(candidate_name)
+                        elif party_simplified == 'REPUBLICAN':
+                            county_result['rep_votes'] += total_votes
+                            if not county_result['rep_candidate']:
+                                county_result['rep_candidate'] = normalize_candidate_name(candidate_name)
+                        else:
+                            county_result['other_votes'] += total_votes
+                        
+                        county_result['total_votes'] += total_votes
+                    
+                    # Add competitiveness calculation
+                    comp_data = calculate_competitiveness(county_result['dem_votes'], county_result['rep_votes'])
+                    county_result.update(comp_data)
+                    
+                    results[category][office_key]['results'][county_name.upper()] = county_result
+        
+        elif has_contest_name and has_location_id:
             # New format (2022, 2024)
             contests = df['Contest Name'].unique()
             print(f"  Found contests: {list(contests)[:3]}...")
