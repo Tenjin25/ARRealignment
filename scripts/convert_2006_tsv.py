@@ -94,6 +94,7 @@ for tsv_file, office_name in tsv_files.items():
             # Clean up candidate name (remove titles, extra spaces)
             candidate_name = re.sub(r'\s+', ' ', candidate_name)  # Normalize spaces
             candidate_name = candidate_name.replace('Attorney General ', '')
+            candidate_name = candidate_name.replace('Secretary of State ', '')
             
             # Create record
             record = {
