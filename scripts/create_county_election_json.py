@@ -36,6 +36,10 @@ for csv_file in data_path.rglob('*.csv'):
 for csv_file in data_path.rglob('*.csv'):
     # Skip the lookup file and other non-election files
     if 'lookup' not in csv_file.name.lower() and csv_file.stat().st_size > 0:
+        # Skip old 2006 source files (Gov, Lt Gov, etc) - use unified file instead
+        if csv_file.parent == data_path and csv_file.name.startswith('2006 '):
+            print(f"  [SKIP] {csv_file.name} - Using unified 20061107 file instead")
+            continue
         # Skip individual county files if we have MIT format for that year
         if '2020' in csv_file.name and 'counties' in str(csv_file.parent) and '2020' in mit_years:
             print(f"  [SKIP] {csv_file.name} - Using MIT format instead")
@@ -61,13 +65,15 @@ DEMOCRATIC_PATTERNS = [
     'harris', 'walz', 'biden', 'obama', 'kerry', 'gore',
     'james', 'natalie', 'clinton', 'hillary', 'pryor', 'berry',
     'snyder', 'ross', 'fisher', 'sheffield', 'daniels', 'wingfield',
-    'wood', 'wilcox', 'jones', 'chris jones', 'whitaker', 'pam'
+    'wood', 'wilcox', 'jones', 'chris jones', 'whitaker', 'pam',
+    'beebe', 'mike beebe', 'halter', 'bill halter', 'mcdaniel', 'dustin mcdaniel'
 ]
 
 REPUBLICAN_PATTERNS = [
     'trump', 'vance', 'romney', 'mccain', 'bush', 
     'boozman', 'john', 'hutchinson', 'cotton', 'robinson',
-    'sanders', 'huckabee', 'lowery', 'mark lowery'
+    'sanders', 'huckabee', 'lowery', 'mark lowery',
+    'asa', 'asa hutchinson', 'holt', 'jim holt', 'delay', 'gunner delay'
 ]
 
 # Competitiveness categorization system
