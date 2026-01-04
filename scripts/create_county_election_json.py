@@ -13,17 +13,42 @@ print(f"Loaded {len(location_to_county)} counties from lookup table")
 all_csv_files = []
 data_path = Path('Data')
 
-# Get all CSV files recursively
+# Track which years we have MIT format files for (to skip individual county files)
+mit_years = set()
+
+# First pass: identify MIT format files
+for csv_file in data_path.rglob('*.csv'):
+    if 'lookup' not in csv_file.name.lower() and csv_file.stat().st_size > 0:
+        # Check for MIT format files (end with __precinct.csv in root Data folder)
+        if csv_file.parent == data_path and '__precinct.csv' in csv_file.name:
+            # Extract year from filename like 20201103__ar__general__precinct.csv
+            if '2020' in csv_file.name:
+                mit_years.add('2020')
+                print(f"  [MIT FORMAT] Found comprehensive 2020 file: {csv_file.name}")
+            elif '2022' in csv_file.name:
+                mit_years.add('2022')
+                print(f"  [MIT FORMAT] Found comprehensive 2022 file: {csv_file.name}")
+            elif '2024' in csv_file.name:
+                mit_years.add('2024')
+                print(f"  [MIT FORMAT] Found comprehensive 2024 file: {csv_file.name}")
+
+# Second pass: collect files, skipping individual county files for years with MIT format
 for csv_file in data_path.rglob('*.csv'):
     # Skip the lookup file and other non-election files
     if 'lookup' not in csv_file.name.lower() and csv_file.stat().st_size > 0:
-        # SKIP 2024 Location ID files (but ALLOW MIT format files in 2024/counties)
-        if '2024' in csv_file.name and 'counties' not in str(csv_file.parent):
-            print(f"  [SKIP] {csv_file.name} - Location ID format (use counties/ instead)")
+        # Skip individual county files if we have MIT format for that year
+        if '2020' in csv_file.name and 'counties' in str(csv_file.parent) and '2020' in mit_years:
+            print(f"  [SKIP] {csv_file.name} - Using MIT format instead")
             continue
-        # SKIP 2022 Location ID files (the ones in Data/ root), but ALLOW 2022/counties files
-        if '2022' in csv_file.name and 'counties' not in str(csv_file.parent):
-            print(f"  [SKIP] {csv_file.name} - Location ID format (use counties/ instead)")
+        if '2022' in csv_file.name and 'counties' in str(csv_file.parent) and '2022' in mit_years:
+            print(f"  [SKIP] {csv_file.name} - Using MIT format instead")
+            continue
+        if '2024' in csv_file.name and 'counties' in str(csv_file.parent) and '2024' in mit_years:
+            print(f"  [SKIP] {csv_file.name} - Using MIT format instead")
+            continue
+        # SKIP Location ID files in root Data/ folder for 2022/2024
+        if ('2024' in csv_file.name or '2022' in csv_file.name) and 'counties' not in str(csv_file.parent) and '__precinct.csv' not in csv_file.name:
+            print(f"  [SKIP] {csv_file.name} - Location ID format")
             continue
         all_csv_files.append(csv_file)
 
